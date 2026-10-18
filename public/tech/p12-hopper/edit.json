@@ -1,0 +1,383 @@
+{
+ "frame": "card",
+ "end": 36.77,
+ "voFrom": 0,
+ "music": [
+  {
+   "src": "shared/music/for-you.mp3",
+   "start": 0.59,
+   "at": 0,
+   "volume": 0.32
+  }
+ ],
+ "headline": {
+  "text": "grace hopper banned one phrase from her *office*",
+  "to": 2.929
+ },
+ "shots": [
+  {
+   "name": "hopper_hook",
+   "from": 0,
+   "zoom": 1.4,
+   "origin": "50% 20%"
+  },
+  {
+   "name": "glasses",
+   "from": 1.129
+  },
+  {
+   "name": "pool",
+   "from": 3.04
+  },
+  {
+   "name": "switch1",
+   "from": 4.729
+  },
+  {
+   "name": "hopper_a",
+   "from": 7.38
+  },
+  {
+   "name": "clock1",
+   "from": 9.05
+  },
+  {
+   "name": "clock2",
+   "from": 10.49
+  },
+  {
+   "name": "desk",
+   "from": 12.13
+  },
+  {
+   "name": "typist",
+   "from": 13.37
+  },
+  {
+   "name": "calendar1",
+   "from": 15.09
+  },
+  {
+   "name": "grab",
+   "from": 16.25
+  },
+  {
+   "name": "hang1",
+   "from": 16.97
+  },
+  {
+   "name": "clock3",
+   "from": 17.69
+  },
+  {
+   "name": "hang2",
+   "from": 18.41
+  },
+  {
+   "name": "swing",
+   "from": 19.13,
+   "flash": true
+  },
+  {
+   "name": "clock4",
+   "from": 19.85
+  },
+  {
+   "name": "hang3",
+   "from": 20.57
+  },
+  {
+   "name": "hopper_b",
+   "from": 21.63
+  },
+  {
+   "name": "markone",
+   "from": 23.45
+  },
+  {
+   "name": "calendar2",
+   "from": 24.79
+  },
+  {
+   "name": "univac",
+   "from": 26.69
+  },
+  {
+   "name": "pool2",
+   "from": 28.49
+  },
+  {
+   "name": "switch2",
+   "from": 29.93
+  },
+  {
+   "name": "beam",
+   "from": 31.01
+  },
+  {
+   "name": "hopper_c",
+   "from": 33.171
+  },
+  {
+   "name": "hopper_end",
+   "from": 35.331
+  }
+ ],
+ "captions": [
+  {
+   "w": [
+    0,
+    1
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    2,
+    4
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    5,
+    7
+   ]
+  },
+  {
+   "w": [
+    8,
+    10
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    11,
+    11
+   ]
+  },
+  {
+   "w": [
+    12,
+    14
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    15,
+    18
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    19,
+    22
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    23,
+    26
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    27,
+    29
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    30,
+    30
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    31,
+    34
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    35,
+    37
+   ]
+  },
+  {
+   "w": [
+    38,
+    38
+   ]
+  },
+  {
+   "w": [
+    39,
+    41
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    42,
+    44
+   ]
+  },
+  {
+   "w": [
+    45,
+    48
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    49,
+    51
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    52,
+    54
+   ]
+  },
+  {
+   "w": [
+    55,
+    55
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    56,
+    57
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    58,
+    59
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    60,
+    62
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    63,
+    66
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    67,
+    68
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    69,
+    71
+   ]
+  },
+  {
+   "w": [
+    72,
+    73
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    74,
+    77
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    78,
+    79
+   ]
+  },
+  {
+   "w": [
+    80,
+    82
+   ]
+  },
+  {
+   "w": [
+    83,
+    85
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    86,
+    89
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    90,
+    92
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    93,
+    93
+   ]
+  },
+  {
+   "w": [
+    94,
+    95
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    96,
+    98
+   ]
+  },
+  {
+   "w": [
+    99,
+    99
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    100,
+    103
+   ],
+   "glass": true
+  }
+ ]
+}

@@ -1,0 +1,459 @@
+{
+ "frame": "card",
+ "end": 36.94,
+ "voFrom": 0,
+ "music": [
+  {
+   "src": "shared/music/mercy.mp3",
+   "start": 8.26,
+   "at": 0,
+   "volume": 0.32
+  }
+ ],
+ "headline": {
+  "text": "karpathy says the hottest new programming language isn't *python*",
+  "to": 3.409
+ },
+ "shots": [
+  {
+   "name": "hook",
+   "from": 0,
+   "zoom": 1.6,
+   "origin": "50% 20%"
+  },
+  {
+   "name": "reels",
+   "from": 2.629
+  },
+  {
+   "name": "kar_a",
+   "from": 4.189,
+   "zoom": 1.6,
+   "origin": "50% 20%"
+  },
+  {
+   "name": "gpus",
+   "from": 5.748
+  },
+  {
+   "name": "corridor",
+   "from": 7.308
+  },
+  {
+   "name": "pycode",
+   "from": 8.45
+  },
+  {
+   "name": "coder",
+   "from": 9.647
+  },
+  {
+   "name": "nnviz",
+   "from": 10.92
+  },
+  {
+   "name": "nnsim",
+   "from": 11.986
+  },
+  {
+   "name": "coderun",
+   "from": 13.545
+  },
+  {
+   "name": "gpus2",
+   "from": 15.105
+  },
+  {
+   "name": "leds",
+   "from": 16.664
+  },
+  {
+   "name": "stage",
+   "from": 17.56
+  },
+  {
+   "name": "crowd",
+   "from": 19.783
+  },
+  {
+   "name": "keys",
+   "from": 21.06
+  },
+  {
+   "name": "pycode2",
+   "from": 22.122
+  },
+  {
+   "name": "term",
+   "from": 22.902
+  },
+  {
+   "name": "nnsim2",
+   "from": 23.682
+  },
+  {
+   "name": "gpus3",
+   "from": 24.462
+  },
+  {
+   "name": "phones",
+   "from": 25.241
+  },
+  {
+   "name": "stage2",
+   "from": 26.021
+  },
+  {
+   "name": "keys2",
+   "from": 26.801
+  },
+  {
+   "name": "silo",
+   "from": 27.581
+  },
+  {
+   "name": "coderun2",
+   "from": 27.97
+  },
+  {
+   "name": "reels2",
+   "from": 28.36
+  },
+  {
+   "name": "cards",
+   "from": 28.75
+  },
+  {
+   "name": "roar",
+   "from": 29.14,
+   "flash": true
+  },
+  {
+   "name": "keys3",
+   "from": 29.92
+  },
+  {
+   "name": "stage3",
+   "from": 30.699
+  },
+  {
+   "name": "pycode3",
+   "from": 32.259
+  },
+  {
+   "name": "lamp",
+   "from": 33.039
+  },
+  {
+   "name": "cray",
+   "from": 33.818
+  },
+  {
+   "name": "kar_end",
+   "from": 34.598,
+   "zoom": 1.6,
+   "origin": "50% 20%"
+  }
+ ],
+ "captions": [
+  {
+   "w": [
+    0,
+    0
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    1,
+    3
+   ]
+  },
+  {
+   "w": [
+    4,
+    6
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    7,
+    9
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    10,
+    12
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    13,
+    14
+   ]
+  },
+  {
+   "w": [
+    15,
+    16
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    17,
+    18
+   ]
+  },
+  {
+   "w": [
+    19,
+    20
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    21,
+    22
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    23,
+    25
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    26,
+    27
+   ]
+  },
+  {
+   "w": [
+    28,
+    29
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    30,
+    32
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    33,
+    34
+   ]
+  },
+  {
+   "w": [
+    35,
+    37
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    38,
+    39
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    40,
+    41
+   ]
+  },
+  {
+   "w": [
+    42,
+    43
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    44,
+    45
+   ]
+  },
+  {
+   "w": [
+    46,
+    47
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    48,
+    49
+   ]
+  },
+  {
+   "w": [
+    50,
+    51
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    52,
+    53
+   ]
+  },
+  {
+   "w": [
+    54,
+    55
+   ]
+  },
+  {
+   "w": [
+    56,
+    57
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    58,
+    59
+   ]
+  },
+  {
+   "w": [
+    60,
+    61
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    62,
+    63
+   ]
+  },
+  {
+   "w": [
+    64,
+    65
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    66,
+    68
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    69,
+    70
+   ]
+  },
+  {
+   "w": [
+    71,
+    72
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    73,
+    74
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    75,
+    76
+   ]
+  },
+  {
+   "w": [
+    77,
+    79
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    80,
+    80
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    81,
+    83
+   ]
+  },
+  {
+   "w": [
+    84,
+    86
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    87,
+    87
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    88,
+    89
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    90,
+    90
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    91,
+    93
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    94,
+    94
+   ]
+  },
+  {
+   "w": [
+    95,
+    96
+   ],
+   "glass": true
+  }
+ ]
+}

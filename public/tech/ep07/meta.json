@@ -1,0 +1,100 @@
+{
+  "speaker": "Andrej Karpathy",
+  "where": "YC AI Startup School",
+  "year": "2025",
+  "hook": "SOFTWARE",
+  "voDelay": 0.6,
+  "music": {
+    "title": "Chrome Pulse - Dark Techno (TuneLiberty, no copyright)",
+    "url": "https://youtube.com/watch?v=Gt_8j6GrNOo",
+    "start": 145.0
+  },
+  "fit": "fill",
+  "shots": [
+    {
+      "name": "coderun",
+      "dur": 0.4,
+      "note": "code running on a dark screen"
+    },
+    {
+      "name": "gpus",
+      "dur": 0.4,
+      "note": "NVIDIA H100 GPU modules, tracking"
+    },
+    {
+      "name": "corridor",
+      "dur": 0.4,
+      "note": "data centre corridor, cold light"
+    },
+    {
+      "name": "pycode",
+      "dur": 0.4,
+      "note": "scrolling source code"
+    },
+    {
+      "name": "stage",
+      "dur": 0.5,
+      "note": "Karpathy on the YC stage, wide"
+    },
+    {
+      "name": "atlas",
+      "dur": 0.5,
+      "note": "his slide: HuggingFace model atlas, weights as a galaxy"
+    },
+    {
+      "name": "silhouette",
+      "dur": 0.5,
+      "note": "programmer silhouetted against green monitors"
+    },
+    {
+      "name": "karpathy1",
+      "dur": 1.2,
+      "note": "Karpathy close, talking"
+    },
+    {
+      "name": "nnsim",
+      "dur": 1.0,
+      "note": "3D neural net simulation (under 'software 3.0')"
+    },
+    {
+      "name": "coder",
+      "dur": 1.0,
+      "note": "programmer in headphones, dark room"
+    },
+    {
+      "name": "karpathy2",
+      "dur": 1.4,
+      "note": "Karpathy close (under 'prompts are now programs')"
+    },
+    {
+      "name": "racks",
+      "dur": 1.2,
+      "note": "server racks, blue LEDs"
+    },
+    {
+      "name": "laptop",
+      "dur": 1.4,
+      "note": "laptop full of code at night"
+    },
+    {
+      "name": "karpathy3",
+      "dur": 1.6,
+      "note": "Karpathy wide on stage"
+    },
+    {
+      "name": "crowd",
+      "dur": 1.8,
+      "note": "Karpathy on the giant screen over the audience (lands on 'English')"
+    },
+    {
+      "name": "karpathy4",
+      "dur": 1.85,
+      "note": "Karpathy close, tail"
+    }
+  ],
+  "keyWords": [
+    "3.0",
+    "programs",
+    "English"
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "speaker": "Richard Feynman",
+  "where": "Esalen Institute",
+  "year": "1985",
+  "hook": "THINK",
+  "voDelay": 0.6,
+  "music": {
+    "title": "Afternoon by Lukrembo (Free To Use Music)",
+    "url": "https://youtube.com/watch?v=C0n-iesn9BI",
+    "start": 10.2
+  },
+  "fit": "wide",
+  "shots": [
+    {
+      "name": "fey_wide",
+      "dur": 0.6,
+      "note": "Feynman at the flip chart, wide, 1985"
+    },
+    {
+      "name": "fey_hand",
+      "dur": 0.45,
+      "note": "Feynman gesturing"
+    },
+    {
+      "name": "tape",
+      "dur": 0.45,
+      "note": "punched paper tape through a reader"
+    },
+    {
+      "name": "cray",
+      "dur": 0.5,
+      "note": "NASA Ames Cray-2, 1985"
+    },
+    {
+      "name": "chalk",
+      "dur": 0.5,
+      "note": "Feynman at the blackboard, Cornell 1964"
+    },
+    {
+      "name": "chipdes",
+      "dur": 0.5,
+      "note": "1980s chip layout, red and blue masks"
+    },
+    {
+      "name": "fey_fist",
+      "dur": 1.0,
+      "note": "Feynman: not going to think like people think"
+    },
+    {
+      "name": "cray_lit",
+      "dur": 0.7,
+      "note": "Cray panel lights"
+    },
+    {
+      "name": "cray_tank",
+      "dur": 0.9,
+      "note": "Cray-2 coolant tank close up"
+    },
+    {
+      "name": "fey_talk",
+      "dur": 1.8,
+      "note": "Feynman explaining, hands together"
+    },
+    {
+      "name": "chalk_cu",
+      "dur": 2.0,
+      "note": "Feynman 1964, close"
+    },
+    {
+      "name": "fey_eyes",
+      "dur": 1.6,
+      "note": "Feynman, arm out"
+    },
+    {
+      "name": "nnsim",
+      "dur": 1.8,
+      "note": "3D perceptron simulation, MNIST digit"
+    },
+    {
+      "name": "hgx",
+      "dur": 1.6,
+      "note": "HGX board on the production line"
+    },
+    {
+      "name": "nnviz",
+      "dur": 1.8,
+      "note": "neural net visualisation, digit lighting up"
+    },
+    {
+      "name": "h100",
+      "dur": 1.2,
+      "note": "NVIDIA H100 modules: but they'll do it better"
+    },
+    {
+      "name": "hgx",
+      "dur": 1.65,
+      "note": "HGX line again: lands BETTER on a bright frame"
+    }
+  ],
+  "keyWords": [
+    "think",
+    "arithmetic",
+    "better"
+  ]
+}

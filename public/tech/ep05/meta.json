@@ -1,0 +1,100 @@
+{
+  "speaker": "Geoffrey Hinton",
+  "where": "60 Minutes, CBS",
+  "year": "2023",
+  "hook": "SAFETY",
+  "voDelay": 0.6,
+  "music": {
+    "title": "Dark Ambient Drone - Patrick Lieberkind (No Copyright Music)",
+    "url": "https://youtube.com/watch?v=woAJrkwRHtU",
+    "start": 20.0
+  },
+  "fit": "fill",
+  "shots": [
+    {
+      "name": "redsrv",
+      "dur": 0.6,
+      "note": "red server corridor, hook"
+    },
+    {
+      "name": "hspot",
+      "dur": 0.5,
+      "note": "Hinton in a dark spotlight"
+    },
+    {
+      "name": "code",
+      "dur": 0.45,
+      "note": "code scrolling"
+    },
+    {
+      "name": "chip",
+      "dur": 0.45,
+      "note": "circuit board macro"
+    },
+    {
+      "name": "nnet",
+      "dur": 0.45,
+      "note": "neural net visualisation"
+    },
+    {
+      "name": "robot",
+      "dur": 0.45,
+      "note": "DeepMind soccer robot"
+    },
+    {
+      "name": "h100",
+      "dur": 0.5,
+      "note": "NVIDIA H100 GPU modules"
+    },
+    {
+      "name": "dc",
+      "dur": 1.5,
+      "note": "data centre aisle"
+    },
+    {
+      "name": "hsync",
+      "dur": 1.8,
+      "note": "Hinton speaking, in sync"
+    },
+    {
+      "name": "leds",
+      "dur": 1.1,
+      "note": "server status LEDs"
+    },
+    {
+      "name": "young",
+      "dur": 1.7,
+      "note": "Hinton in the 1970s, black and white"
+    },
+    {
+      "name": "nnet2",
+      "dur": 1.7,
+      "note": "neural net particles"
+    },
+    {
+      "name": "hsync2",
+      "dur": 2.2,
+      "note": "Hinton speaking, in sync"
+    },
+    {
+      "name": "redsrv2",
+      "dur": 1.4,
+      "note": "red server room"
+    },
+    {
+      "name": "hpost",
+      "dur": 1.6,
+      "note": "Hinton explaining, newsroom"
+    },
+    {
+      "name": "hhall",
+      "dur": 1.75,
+      "note": "Hinton standing alone, tail"
+    }
+  ],
+  "keyWords": [
+    "safety",
+    "uncertainty",
+    "wrong"
+  ]
+}

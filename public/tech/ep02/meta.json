@@ -1,0 +1,27 @@
+{
+  "speaker": "Arthur C. Clarke", "where": "BBC Horizon", "year": "1964",
+  "hook": "COMMUTE",
+  "voDelay": 0.6,
+  "music": {"title": "Thinking, from VANGELIST by Rusted Music Studio (free, royalty-free: rustedstudio.itch.io/free-music-vangelist-final-mix)",
+            "url": "https://youtube.com/watch?v=nv2nKjUCCGA", "start": 3564.0},
+  "fit": "wide",
+  "shots": [
+    {"name": "clarke",    "dur": 0.6,  "note": "Clarke close-up before he speaks (BBC 1964)"},
+    {"name": "telex",     "dur": 0.45, "note": "teleprinter platen printing"},
+    {"name": "tapes",     "dur": 0.4,  "note": "IBM tape reels spinning (1961)"},
+    {"name": "horn",      "dur": 0.45, "note": "Telstar ground station horn antenna"},
+    {"name": "launch",    "dur": 0.5,  "note": "Telstar 1 launch, Cape Canaveral, July 1962"},
+    {"name": "telstar",   "dur": 0.7,  "note": "Telstar satellite on the stand"},
+    {"name": "beams",     "dur": 0.9,  "note": "animation: satellite relaying across the Atlantic"},
+    {"name": "operators", "dur": 1.3,  "note": "long row of switchboard operators"},
+    {"name": "clarke2",   "dur": 2.6,  "note": "Clarke to camera, lip sync ('conduct his business from Tahiti')"},
+    {"name": "overseas",  "dur": 1.5,  "note": "OVERSEAS switchboard sign"},
+    {"name": "mainframe", "dur": 1.9,  "note": "operator loading a tape reel in the 1961 computer room ('...from London')"},
+    {"name": "earth",     "dur": 1.3,  "note": "modern: earth at night from orbit ('In fact')"},
+    {"name": "sat",       "dur": 1.2,  "note": "modern satellite passing over earth ('no longer commute')"},
+    {"name": "fibre",     "dur": 1.0,  "note": "fibre optic strands glowing ('they will')"},
+    {"name": "call",      "dur": 1.1,  "note": "man on a video call on a laptop at home ('communicate')"},
+    {"name": "phone",     "dur": 1.55, "note": "hand scrolling a smartphone, tail"}
+  ],
+  "keyWords": ["Tahiti", "London", "commute", "communicate."]
+}

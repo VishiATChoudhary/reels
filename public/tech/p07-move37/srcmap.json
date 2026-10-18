@@ -1,0 +1,66 @@
+{
+ "drop": 28.0,
+ "musicStart": 13.74,
+ "segments": [
+  {
+   "reel": 0,
+   "file": "move37",
+   "src": 43.45,
+   "dur": 2.1
+  },
+  {
+   "reel": 2.35,
+   "file": "move37",
+   "src": 46.45,
+   "dur": 3.0
+  },
+  {
+   "reel": 5.7,
+   "file": "doc",
+   "src": 120.7,
+   "dur": 3.95
+  },
+  {
+   "reel": 9.9,
+   "file": "doc",
+   "src": 125.9,
+   "dur": 3.55
+  },
+  {
+   "reel": 13.85,
+   "file": "doc",
+   "src": 294.45,
+   "dur": 3.6
+  },
+  {
+   "reel": 17.7,
+   "file": "doc",
+   "src": 300.0,
+   "dur": 4.75
+  },
+  {
+   "reel": 22.8,
+   "file": "doc2",
+   "src": 282.6,
+   "dur": 3.75
+  },
+  {
+   "reel": 26.9,
+   "file": "doc2",
+   "src": 288.25,
+   "dur": 1.7
+  },
+  {
+   "reel": 28.9,
+   "file": "doc",
+   "src": 318.95,
+   "dur": 1.4
+  },
+  {
+   "reel": 30.6,
+   "file": "doc",
+   "src": 322.55,
+   "dur": 6.65
+  }
+ ]
+}

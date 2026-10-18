@@ -1,0 +1,364 @@
+{
+ "frame": "card",
+ "end": 30.72,
+ "voFrom": 0,
+ "music": [
+  {
+   "src": "shared/music/humble-yourself.mp3",
+   "start": 26.66,
+   "at": 0,
+   "volume": 0.32
+  }
+ ],
+ "headline": {
+  "text": "nvidia's ceo wished stanford students a *curse*",
+  "to": 2.82
+ },
+ "shots": [
+  {
+   "name": "jensen_hook",
+   "from": 0,
+   "zoom": 1.25,
+   "origin": "50% 33%"
+  },
+  {
+   "name": "dawn",
+   "from": 1.27
+  },
+  {
+   "name": "stadium",
+   "from": 3.44
+  },
+  {
+   "name": "seated",
+   "from": 5.92
+  },
+  {
+   "name": "cheer",
+   "from": 7.47
+  },
+  {
+   "name": "jensen_a",
+   "from": 8.77
+  },
+  {
+   "name": "canvas",
+   "from": 10.57
+  },
+  {
+   "name": "ropes",
+   "from": 12.37
+  },
+  {
+   "name": "standup",
+   "from": 13.67
+  },
+  {
+   "name": "arena",
+   "from": 15.22
+  },
+  {
+   "name": "chalk",
+   "from": 16.43
+  },
+  {
+   "name": "pushup",
+   "from": 17.95
+  },
+  {
+   "name": "hall",
+   "from": 19.6
+  },
+  {
+   "name": "meat",
+   "from": 21.42
+  },
+  {
+   "name": "grimace",
+   "from": 21.808
+  },
+  {
+   "name": "situp",
+   "from": 22.195
+  },
+  {
+   "name": "steps",
+   "from": 22.583
+  },
+  {
+   "name": "punch",
+   "from": 22.97,
+   "flash": true
+  },
+  {
+   "name": "down",
+   "from": 23.357
+  },
+  {
+   "name": "whale",
+   "from": 23.91
+  },
+  {
+   "name": "signs",
+   "from": 24.52
+  },
+  {
+   "name": "crowd",
+   "from": 25.295
+  },
+  {
+   "name": "lei",
+   "from": 26.07
+  },
+  {
+   "name": "jensen_c",
+   "from": 26.845
+  },
+  {
+   "name": "battered",
+   "from": 27.62
+  },
+  {
+   "name": "arms",
+   "from": 28.395
+  },
+  {
+   "name": "walkout",
+   "from": 29.17
+  },
+  {
+   "name": "jensen_end",
+   "from": 29.557
+  }
+ ],
+ "captions": [
+  {
+   "w": [
+    0,
+    2
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    3,
+    4
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    5,
+    6
+   ]
+  },
+  {
+   "w": [
+    7,
+    8
+   ]
+  },
+  {
+   "w": [
+    9,
+    11
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    12,
+    14
+   ]
+  },
+  {
+   "w": [
+    15,
+    16
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    17,
+    19
+   ]
+  },
+  {
+   "w": [
+    20,
+    20
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    21,
+    22
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    23,
+    25
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    26,
+    28
+   ]
+  },
+  {
+   "w": [
+    29,
+    29
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    30,
+    31
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    32,
+    33
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    34,
+    35
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    36,
+    37
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    38,
+    40
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    41,
+    42
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    43,
+    44
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    45,
+    46
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    47,
+    48
+   ]
+  },
+  {
+   "w": [
+    49,
+    52
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    53,
+    54
+   ]
+  },
+  {
+   "w": [
+    55,
+    58
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    59,
+    59
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    60,
+    61
+   ]
+  },
+  {
+   "w": [
+    62,
+    63
+   ]
+  },
+  {
+   "w": [
+    64,
+    65
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    66,
+    67
+   ]
+  },
+  {
+   "w": [
+    68,
+    69
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    70,
+    71
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    72,
+    73
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    74,
+    75
+   ],
+   "glass": true
+  }
+ ]
+}

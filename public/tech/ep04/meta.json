@@ -1,0 +1,26 @@
+{
+  "speaker": "Steve Jobs", "where": "Memory & Imagination", "year": "1990",
+  "hook": "BICYCLE",
+  "voDelay": 0.6,
+  "music": {"title": "Interplanetary by Martijn de Bont (free, Interstellar style)", "url": "https://youtube.com/watch?v=I18_VjY4Xuk", "start": 34.0},
+  "fit": "fill",
+  "shots": [
+    {"name": "jobs_think", "dur": 0.6,  "note": "Jobs, chin on fist, 1990"},
+    {"name": "chart",      "dur": 0.55, "note": "the locomotion efficiency chart: gull, rabbit, rat"},
+    {"name": "condor",     "dur": 1.4,  "note": "Andean condor gliding, BBC Flight of the Condor 1982"},
+    {"name": "bikes",      "dur": 0.55, "note": "massed cyclists, Birmingham 1933, Pathe"},
+    {"name": "penny",      "dur": 0.5,  "note": "penny farthing rider, c.1900"},
+    {"name": "bikes2",     "dur": 0.5,  "note": "cyclists coming at camera, 1933"},
+    {"name": "jobs_talk",  "dur": 0.9,  "note": "Jobs at the whiteboard"},
+    {"name": "bikechart",  "dur": 1.3,  "note": "Scientific American bicycle efficiency chart"},
+    {"name": "mac",        "dur": 1.2,  "note": "Macintosh on stage, 1984"},
+    {"name": "jobs_cu",    "dur": 1.7,  "note": "Jobs close: that's what a computer is to me"},
+    {"name": "apple2",     "dur": 1.3,  "note": "Apple II logic board"},
+    {"name": "board",      "dur": 1.5,  "note": "circuit board macro"},
+    {"name": "chips",      "dur": 1.5,  "note": "components macro, blue light"},
+    {"name": "fab",        "dur": 1.8,  "note": "Intel cleanroom: the most remarkable tool"},
+    {"name": "mbp",        "dur": 2.8,  "note": "MacBook Pro Touch Bar glowing"},
+    {"name": "mbp2",       "dur": 2.97, "note": "modern MacBook keyboard and dock: a bicycle for our minds"}
+  ],
+  "keyWords": ["condor", "bicycle", "remarkable", "minds"]
+}

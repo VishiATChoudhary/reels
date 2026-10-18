@@ -1,0 +1,20 @@
+{
+  "id": "history",
+  "prefix": "History",
+  "handle": "@HANDLE",
+  "frame": "card",
+  "music": { "volume": 0.30, "pool": ["strike-me-down", "savior", "let-me-fall", "utopia", "wild", "medusa"] },
+  "arc": {
+    "build": ["NEWSREEL", "BW", "BLEAK", "SEPIA"],
+    "turn": ["SEPIA", "AMBER"],
+    "speaker": ["NEWSREEL", "SEPIA"],
+    "payoff": ["FADED", "AMBER", "VIVID", "RED"]
+  },
+  "grades": {
+    "NEWSREEL": "hue=s=0,eq=contrast=1.3:brightness=-0.04,noise=alls=10:allf=t",
+    "SEPIA":    "colorchannelmixer=.393:.769:.189:0:.349:.686:.168:0:.272:.534:.131,eq=contrast=1.1",
+    "FADED":    "eq=saturation=0.75:contrast=1.05:brightness=0.02,colorbalance=rs=0.08:gs=0.03:bs=-0.08:rh=0.05"
+  },
+  "look": {},
+  "episodes": []
+}

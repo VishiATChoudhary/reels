@@ -1,0 +1,390 @@
+{
+ "frame": "card",
+ "end": 34.36,
+ "voFrom": 0,
+ "music": [
+  {
+   "src": "shared/music/wild.mp3",
+   "start": 0.44,
+   "at": 0,
+   "volume": 0.32
+  }
+ ],
+ "headline": {
+  "text": "steve jobs found the answer in a study about *birds*",
+  "to": 3.055
+ },
+ "shots": [
+  {
+   "name": "jobs_hook",
+   "from": 0,
+   "zoom": 1.6,
+   "origin": "50% 18%"
+  },
+  {
+   "name": "condor1",
+   "from": 1.177
+  },
+  {
+   "name": "condor2",
+   "from": 3.055
+  },
+  {
+   "name": "apes1",
+   "from": 4.933
+  },
+  {
+   "name": "chart",
+   "from": 6.812
+  },
+  {
+   "name": "jobs_a",
+   "from": 8.69
+  },
+  {
+   "name": "apes2",
+   "from": 10.568
+  },
+  {
+   "name": "jobs_b",
+   "from": 13.34
+  },
+  {
+   "name": "pathe",
+   "from": 14.6
+  },
+  {
+   "name": "penny",
+   "from": 15.577
+  },
+  {
+   "name": "helmet",
+   "from": 16.829
+  },
+  {
+   "name": "wheel1",
+   "from": 17.456
+  },
+  {
+   "name": "pair",
+   "from": 18.082
+  },
+  {
+   "name": "glasses",
+   "from": 18.708
+  },
+  {
+   "name": "flare",
+   "from": 19.021
+  },
+  {
+   "name": "rider",
+   "from": 19.334
+  },
+  {
+   "name": "lens",
+   "from": 19.647
+  },
+  {
+   "name": "sprint",
+   "from": 19.96,
+   "flash": true
+  },
+  {
+   "name": "hairpin",
+   "from": 20.586
+  },
+  {
+   "name": "bchart",
+   "from": 21.212
+  },
+  {
+   "name": "sprint2",
+   "from": 22.464
+  },
+  {
+   "name": "jobs_c",
+   "from": 23.717
+  },
+  {
+   "name": "mac",
+   "from": 24.969
+  },
+  {
+   "name": "ape_bone",
+   "from": 26.221
+  },
+  {
+   "name": "smash",
+   "from": 27.473
+  },
+  {
+   "name": "match",
+   "from": 28.099
+  },
+  {
+   "name": "desk",
+   "from": 29.978
+  },
+  {
+   "name": "wheel2",
+   "from": 31.23
+  },
+  {
+   "name": "jobs_end",
+   "from": 32.482
+  }
+ ],
+ "captions": [
+  {
+   "w": [
+    0,
+    1
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    2,
+    3
+   ]
+  },
+  {
+   "w": [
+    4,
+    5
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    6,
+    7
+   ]
+  },
+  {
+   "w": [
+    8,
+    9
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    10,
+    11
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    12,
+    14
+   ]
+  },
+  {
+   "w": [
+    15,
+    16
+   ]
+  },
+  {
+   "w": [
+    17,
+    18
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    19,
+    21
+   ]
+  },
+  {
+   "w": [
+    22,
+    23
+   ]
+  },
+  {
+   "w": [
+    24,
+    26
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    27,
+    28
+   ]
+  },
+  {
+   "w": [
+    29,
+    31
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    32,
+    34
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    35,
+    37
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    38,
+    39
+   ]
+  },
+  {
+   "w": [
+    40,
+    41
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    42,
+    43
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    44,
+    46
+   ]
+  },
+  {
+   "w": [
+    47,
+    49
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    50,
+    50
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    51,
+    52
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    53,
+    53
+   ]
+  },
+  {
+   "w": [
+    54,
+    54
+   ]
+  },
+  {
+   "w": [
+    55,
+    57
+   ]
+  },
+  {
+   "w": [
+    58,
+    60
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    61,
+    63
+   ]
+  },
+  {
+   "w": [
+    64,
+    65
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    66,
+    68
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    69,
+    71
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    72,
+    72
+   ]
+  },
+  {
+   "w": [
+    73,
+    73
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    74,
+    76
+   ]
+  },
+  {
+   "w": [
+    77,
+    79
+   ]
+  },
+  {
+   "w": [
+    80,
+    83
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    84,
+    86
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    87,
+    89
+   ],
+   "glass": true
+  }
+ ]
+}

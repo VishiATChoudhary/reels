@@ -1,0 +1,23 @@
+{
+  "name": "reels",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "node tools/render.mjs",
+    "post": "node tools/social/cli.mjs post",
+    "social": "node tools/social/cli.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.536",
+    "@remotion/google-fonts": "4.0.536",
+    "@remotion/media": "4.0.536",
+    "@types/react": "^19.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "4.0.536",
+    "typescript": "^7.0.2"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.64.1"
+  }
+}

@@ -1,0 +1,375 @@
+{
+ "frame": "card",
+ "end": 27.53,
+ "voFrom": 0,
+ "music": [
+  {
+   "src": "shared/music/medusa.mp3",
+   "start": 24.85,
+   "at": 0,
+   "volume": 0.32
+  }
+ ],
+ "headline": {
+  "text": "in 1961 an mit scientist made a promise about *machines*",
+  "to": 3.15
+ },
+ "hook": {
+  "text": "the machines",
+  "to": 1.08
+ },
+ "shots": [
+  {
+   "name": "sel_hook",
+   "from": 0,
+   "zoom": 1.6,
+   "origin": "50% 15%"
+  },
+  {
+   "name": "elektro",
+   "from": 1.309
+  },
+  {
+   "name": "sel_a",
+   "from": 3.15
+  },
+  {
+   "name": "robby",
+   "from": 4.99
+  },
+  {
+   "name": "wedding",
+   "from": 6.83
+  },
+  {
+   "name": "bride",
+   "from": 7.75
+  },
+  {
+   "name": "tapes",
+   "from": 8.67
+  },
+  {
+   "name": "sel_b",
+   "from": 9.42
+  },
+  {
+   "name": "checkers",
+   "from": 11.43
+  },
+  {
+   "name": "thinker",
+   "from": 12.35
+  },
+  {
+   "name": "sel_c",
+   "from": 13.43
+  },
+  {
+   "name": "mouse",
+   "from": 14.19
+  },
+  {
+   "name": "printer",
+   "from": 14.65
+  },
+  {
+   "name": "relays",
+   "from": 15.11
+  },
+  {
+   "name": "console",
+   "from": 15.34
+  },
+  {
+   "name": "atlas",
+   "from": 15.57,
+   "flash": true
+  },
+  {
+   "name": "h100",
+   "from": 16.49
+  },
+  {
+   "name": "shannon",
+   "from": 17.21
+  },
+  {
+   "name": "figure",
+   "from": 19.25
+  },
+  {
+   "name": "maze",
+   "from": 20.17
+  },
+  {
+   "name": "lab",
+   "from": 21.09
+  },
+  {
+   "name": "robby2",
+   "from": 22.93
+  },
+  {
+   "name": "figure2",
+   "from": 24.31
+  },
+  {
+   "name": "atlas2",
+   "from": 25.23
+  },
+  {
+   "name": "sel_end",
+   "from": 26.15
+  }
+ ],
+ "captions": [
+  {
+   "w": [
+    5,
+    6
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    7,
+    8
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    9,
+    11
+   ]
+  },
+  {
+   "w": [
+    12,
+    14
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    15,
+    16
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    17,
+    20
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    21,
+    23
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    24,
+    24
+   ]
+  },
+  {
+   "w": [
+    25,
+    26
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    27,
+    29
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    30,
+    33
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    34,
+    35
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    36,
+    38
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    39,
+    40
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    41,
+    43
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    44,
+    45
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    46,
+    48
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    49,
+    50
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    51,
+    53
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    54,
+    56
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    57,
+    58
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    59,
+    60
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    61,
+    62
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    63,
+    65
+   ]
+  },
+  {
+   "w": [
+    66,
+    66
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    67,
+    69
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    70,
+    71
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    72,
+    74
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    75,
+    77
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    78,
+    81
+   ]
+  },
+  {
+   "w": [
+    82,
+    84
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    85,
+    87
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    88,
+    90
+   ]
+  },
+  {
+   "w": [
+    91,
+    93
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    94,
+    95
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    96,
+    99
+   ],
+   "layout": "stack"
+  }
+ ]
+}

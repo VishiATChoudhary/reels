@@ -1,0 +1,11 @@
+node_modules/
+out/
+public/**/raw/
+public/**/cuts/
+public/**/*.mp4
+public/**/*.mp3
+public/**/*.wav
+public/**/*.m4a
+tools/models/
+.DS_Store
+tech/refs/

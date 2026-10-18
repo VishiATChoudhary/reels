@@ -1,0 +1,428 @@
+{
+ "frame": "card",
+ "end": 39.09,
+ "voFrom": 0,
+ "music": [
+  {
+   "src": "shared/music/strike-me-down.mp3",
+   "start": 13.74,
+   "at": 0,
+   "volume": 0.32
+  }
+ ],
+ "headline": {
+  "text": "the move every go expert called a *mistake*",
+  "to": 3.217
+ },
+ "shots": [
+  {
+   "name": "hook",
+   "from": 0,
+   "zoom": 1.25,
+   "origin": "50% 45%"
+  },
+  {
+   "name": "lee_a",
+   "from": 2.35
+  },
+  {
+   "name": "redboard",
+   "from": 3.87
+  },
+  {
+   "name": "fanhui1",
+   "from": 5.7
+  },
+  {
+   "name": "lee_what",
+   "from": 8.435
+  },
+  {
+   "name": "stones",
+   "from": 9.9
+  },
+  {
+   "name": "lee_bad",
+   "from": 12.348
+  },
+  {
+   "name": "lee_more",
+   "from": 13.85
+  },
+  {
+   "name": "fanhui_m",
+   "from": 16.261
+  },
+  {
+   "name": "room",
+   "from": 18.217
+  },
+  {
+   "name": "aui",
+   "from": 20.826
+  },
+  {
+   "name": "aja",
+   "from": 22.13
+  },
+  {
+   "name": "girl",
+   "from": 23.435
+  },
+  {
+   "name": "hand",
+   "from": 24.739
+  },
+  {
+   "name": "leeprof",
+   "from": 25.391
+  },
+  {
+   "name": "audience",
+   "from": 26.043
+  },
+  {
+   "name": "ajareach",
+   "from": 26.696
+  },
+  {
+   "name": "leeprof2",
+   "from": 27.022
+  },
+  {
+   "name": "comms",
+   "from": 27.348
+  },
+  {
+   "name": "ajabowl",
+   "from": 27.674
+  },
+  {
+   "name": "place",
+   "from": 28.0,
+   "flash": true
+  },
+  {
+   "name": "vineyard",
+   "from": 28.652
+  },
+  {
+   "name": "m37board",
+   "from": 29.304
+  },
+  {
+   "name": "fanhui_i",
+   "from": 30.935
+  },
+  {
+   "name": "hl1",
+   "from": 32.565
+  },
+  {
+   "name": "hl2",
+   "from": 33.87
+  },
+  {
+   "name": "net",
+   "from": 35.174
+  },
+  {
+   "name": "hl3",
+   "from": 36.478
+  },
+  {
+   "name": "fanhui_end",
+   "from": 37.783
+  }
+ ],
+ "captions": [
+  {
+   "w": [
+    0,
+    1
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    2,
+    3
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    4,
+    5
+   ]
+  },
+  {
+   "w": [
+    6,
+    7
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    8,
+    10
+   ]
+  },
+  {
+   "w": [
+    11,
+    11
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    12,
+    13
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    14,
+    16
+   ]
+  },
+  {
+   "w": [
+    17,
+    18
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    19,
+    20
+   ]
+  },
+  {
+   "w": [
+    21,
+    23
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    24,
+    24
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    25,
+    25
+   ]
+  },
+  {
+   "w": [
+    26,
+    27
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    28,
+    29
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    30,
+    31
+   ]
+  },
+  {
+   "w": [
+    32,
+    34
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    35,
+    36
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    37,
+    38
+   ]
+  },
+  {
+   "w": [
+    39,
+    40
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    41,
+    42
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    43,
+    44
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    45,
+    45
+   ]
+  },
+  {
+   "w": [
+    46,
+    47
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    48,
+    49
+   ]
+  },
+  {
+   "w": [
+    50,
+    51
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    52,
+    54
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    55,
+    56
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    57,
+    58
+   ]
+  },
+  {
+   "w": [
+    59,
+    61
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    62,
+    62
+   ]
+  },
+  {
+   "w": [
+    63,
+    63
+   ]
+  },
+  {
+   "w": [
+    64,
+    66
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    67,
+    68
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    69,
+    69
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    70,
+    71
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    72,
+    74
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    75,
+    77
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    78,
+    79
+   ]
+  },
+  {
+   "w": [
+    80,
+    81
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    82,
+    83
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    84,
+    86
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    87,
+    88
+   ],
+   "glass": true
+  }
+ ]
+}

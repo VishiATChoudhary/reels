@@ -1,0 +1,90 @@
+{
+  "speaker": "Demis Hassabis",
+  "where": "60 Minutes, CBS",
+  "year": "2025",
+  "hook": "CURE",
+  "voDelay": 0.6,
+  "music": {
+    "title": "Scott Buckley - Effervescence (CC-BY 4.0, credit Scott Buckley)",
+    "url": "https://youtube.com/watch?v=pBrR83IjSUA",
+    "start": 55.0
+  },
+  "fit": "fill",
+  "shots": [
+    {
+      "name": "cells",
+      "dur": 0.35,
+      "note": "living cells under the microscope"
+    },
+    {
+      "name": "dna",
+      "dur": 0.35,
+      "note": "DNA helix particle render"
+    },
+    {
+      "name": "afscreen",
+      "dur": 0.4,
+      "note": "AlphaFold protein structure on a DeepMind monitor"
+    },
+    {
+      "name": "tpu",
+      "dur": 0.4,
+      "note": "Google TPU server hall"
+    },
+    {
+      "name": "microscope",
+      "dur": 0.5,
+      "note": "scientist at a microscope, close"
+    },
+    {
+      "name": "hassabis1",
+      "dur": 1.5,
+      "note": "Hassabis, lip sync ('human health, and I think one day')"
+    },
+    {
+      "name": "fold",
+      "dur": 1.0,
+      "note": "protein synthesis and folding simulation ('cure')"
+    },
+    {
+      "name": "afprotein",
+      "dur": 1.2,
+      "note": "AlphaFold structure in colour on screen ('all disease')"
+    },
+    {
+      "name": "ribbon",
+      "dur": 1.2,
+      "note": "protein model on a DeepMind screen ('help of AI')"
+    },
+    {
+      "name": "pelley",
+      "dur": 1.5,
+      "note": "Scott Pelley, lip sync ('The end of disease?')"
+    },
+    {
+      "name": "hassabis2",
+      "dur": 2.0,
+      "note": "Hassabis, lip sync ('I think that's well within reach')"
+    },
+    {
+      "name": "nobel",
+      "dur": 1.6,
+      "note": "Hassabis receives the Nobel Prize, Stockholm 2024 ('next decade')"
+    },
+    {
+      "name": "lab",
+      "dur": 1.4,
+      "note": "lab, researcher at a microscope ('I don't see why not')"
+    },
+    {
+      "name": "seated",
+      "dur": 1.8,
+      "note": "Hassabis seated with his Nobel medal, tail"
+    }
+  ],
+  "keyWords": [
+    "cure",
+    "disease",
+    "decade"
+  ]
+}

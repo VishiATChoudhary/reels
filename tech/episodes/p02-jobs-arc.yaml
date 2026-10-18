@@ -1,0 +1,107 @@
+# tech/p02-jobs-arc: Jobs, "a bicycle for our minds" (34 s on WILD). The approved reference build, as a spec.
+# "blew the condor away" lands on the drop. Build: python3 tools/reel.py build tech/p02-jobs-arc
+song: wild
+headline: steve jobs found the answer in a study about *birds*
+headline_to: b-27
+end: b23
+
+sources:
+  jobs:     {link: tech/ep04/jobs, crop: "940:716:163:2"}
+  condor:   {link: tech/ep04/condor, crop: "960:720:280:0"}
+  bikeboom: {link: tech/ep04/bikeboom}
+  penny:    {link: tech/ep04/penny}
+  mac:      {link: tech/ep04/mac}
+  bone:     {link: tech/p01-jobs/bone}
+  apes:     {link: tech/p01-jobs/apes, crop: "1920:864:0:108"}
+  cycle:    {link: tech/p01-jobs/cycle}
+
+voice:
+  src: jobs
+  whisper: single
+  whisper_from: 16
+  whisper_to: eof
+  lift: false
+  climax: {seg: 4, word: blew, onset: 44.34}
+  segments:
+    - [17.00, 25.25, 0.12]   # The condor used the least energy to move a kilometer, and humans came in with a rather unimpressive showing.
+    - [26.88, 31.55, 0.30]   # It was not too proud a showing for the crown of creation.
+    - [33.62, 34.84, 0.04]   # but then somebody
+    - [36.37, 41.19, 0.35]   # had the insight to test the efficiency of locomotion for a man on a bicycle.
+    - [44.15, 50.35, 0.40]   # blew the condor away, completely off the top of the charts. And that's what a computer is to me.
+    - [51.50, 58.70, 0]      # it's the most remarkable tool that we've ever come up with. And it's the equivalent of a bicycle for our minds.
+  fix: [["about", ""]]
+
+shots:
+  # hook: Jobs' face on frame 1 (the whiteboard take, lip-synced; the source cuts away until 17.12)
+  - 0       jobs_hook  jobs@sync+0.15  WARM   zoom=1.6 origin=50%,18%
+  # build-up: slow, cold, muted
+  - b-30    condor1    condor@51.0     COLD
+  - b-27    condor2    condor@44.0     COLD
+  - b-24    apes1      apes@10.0       BLEAK
+  - b-21    chart      jobs@11.0       COLD
+  - b-18    jobs_a     jobs@27.20      WARM
+  - b-15    apes2      apes@30.0       BLEAK
+  - s2      jobs_b     jobs@sync       WARM
+  # riser: cuts tighten to the drop
+  - s3      pathe      bikeboom@36.0   AMBER
+  - b-7     penny      penny@31.5      AMBER
+  - b-5     helmet     cycle@12.0      COLD
+  - b-4     wheel1     cycle@15.0      TEAL
+  - b-3     pair       cycle@14.0      AMBER
+  - b-2     glasses    cycle@17.0      COLD
+  - b-1.5   flare      cycle@1.0       AMBER
+  - b-1     rider      cycle@16.0      TEAL
+  - b-0.5   lens       cycle@13.0      COLD
+  # drop and payoff: vivid, on the beat
+  - b0      sprint     cycle@22.0      VIVID  flash
+  - b1      hairpin    cycle@25.0      AMBER
+  - b2      bchart     jobs@43.0       WARM
+  - b4      sprint2    cycle@26.0      TEAL
+  - b6      jobs_c     jobs@48.10      WARM
+  - b8      mac        mac@69.8        COLD
+  - b10     ape_bone   apes@76.0       AMBER
+  - b12     smash      apes@85.0       RED
+  - b13     match      bone@10.2       TEAL
+  - b16     desk       jobs@55.60      AMBER
+  - b18     wheel2     cycle@15.2      COLD
+  - b20     jobs_end   jobs@4.0        WARM
+
+captions:
+  - the condor | glass
+  - used the
+  - least energy | stack
+  - to move
+  - a kilometer | stack
+  - and humans | stack
+  - came in with
+  - a rather
+  - unimpressive showing | stack
+  - it was not
+  - too proud
+  - of a showing | stack
+  - for the
+  - crown of creation | glass
+  - but then somebody | stack
+  - had the insight | stack
+  - to test
+  - the efficiency | stack
+  - of locomotion | stack
+  - for a man
+  - on a bicycle | stack
+  - blew | italic
+  - the condor | stack
+  - away
+  - completely
+  - off the top
+  - of the charts | stack
+  - and that's what
+  - a computer | stack
+  - is to me | italic
+  - it's the most | stack
+  - remarkable
+  - tool | glass
+  - that we've ever
+  - come up with
+  - and it's the equivalent | stack
+  - of a bicycle | stack
+  - for our minds | glass

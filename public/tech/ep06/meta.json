@@ -1,0 +1,101 @@
+{
+  "speaker": "Fan Hui + commentary",
+  "where": "AlphaGo vs Lee Sedol",
+  "year": "2016",
+  "hook": "37",
+  "voDelay": 0.6,
+  "music": {
+    "title": "Fuzzeke - To Be Mortal [Epic Hybrid Orchestral Trailer Music] (No Copyright)",
+    "url": "https://youtube.com/watch?v=WHDHsjXr6YA",
+    "start": 35.0
+  },
+  "fit": "fill",
+  "shots": [
+    {
+      "name": "stone",
+      "dur": 0.7,
+      "note": "hand places a stone, hook"
+    },
+    {
+      "name": "leeclose",
+      "dur": 0.5,
+      "note": "Lee Sedol thinking, close"
+    },
+    {
+      "name": "overhead",
+      "dur": 0.5,
+      "note": "real board from above, stone placed"
+    },
+    {
+      "name": "team",
+      "dur": 0.55,
+      "note": "DeepMind control room monitors"
+    },
+    {
+      "name": "leehand",
+      "dur": 0.55,
+      "note": "Lee Sedol's hands, waiting"
+    },
+    {
+      "name": "netgraph",
+      "dur": 0.55,
+      "note": "AlphaGo search tree graphic"
+    },
+    {
+      "name": "comms",
+      "dur": 1.5,
+      "note": "live commentators on stage, in sync"
+    },
+    {
+      "name": "bcast",
+      "dur": 1.3,
+      "note": "broadcast board graphic with clocks"
+    },
+    {
+      "name": "leethink",
+      "dur": 1.5,
+      "note": "Lee Sedol, hand to his head"
+    },
+    {
+      "name": "copper",
+      "dur": 0.85,
+      "note": "TPU data centre, liquid cooling pipes"
+    },
+    {
+      "name": "overhead2",
+      "dur": 1.5,
+      "note": "stone placed on the real board"
+    },
+    {
+      "name": "gamecut",
+      "dur": 1.4,
+      "note": "stones on the match board"
+    },
+    {
+      "name": "fanhui",
+      "dur": 1.6,
+      "note": "Fan Hui, hands clasped, in sync"
+    },
+    {
+      "name": "aui",
+      "dur": 1.2,
+      "note": "AlphaGo's own board UI, on the drop"
+    },
+    {
+      "name": "fanhui2",
+      "dur": 2.2,
+      "note": "Fan Hui reacting"
+    },
+    {
+      "name": "leefinal",
+      "dur": 3.5,
+      "note": "Lee Sedol, hand to mouth, tail"
+    }
+  ],
+  "keyWords": [
+    "surprising",
+    "mistake",
+    "shock",
+    "bad"
+  ]
+}

@@ -1,0 +1,363 @@
+{
+ "frame": "card",
+ "end": 28.98,
+ "voFrom": 0,
+ "music": [
+  {
+   "src": "shared/music/storms-coming.mp3",
+   "start": 23.02,
+   "at": 0,
+   "volume": 0.32
+  }
+ ],
+ "headline": {
+  "text": "the godfather of ai was asked one question he couldn't *answer*",
+  "to": 3.218
+ },
+ "shots": [
+  {
+   "name": "hinton_hook",
+   "from": 0,
+   "zoom": 1.25,
+   "origin": "37% 25%"
+  },
+  {
+   "name": "nnet",
+   "from": 1.885
+  },
+  {
+   "name": "young",
+   "from": 3.662
+  },
+  {
+   "name": "chat",
+   "from": 5.438
+  },
+  {
+   "name": "robot",
+   "from": 7.215
+  },
+  {
+   "name": "hinton_a",
+   "from": 9.0
+  },
+  {
+   "name": "path",
+   "from": 11.212
+  },
+  {
+   "name": "caproni",
+   "from": 12.988
+  },
+  {
+   "name": "caproni2",
+   "from": 14.765
+  },
+  {
+   "name": "hindenburg",
+   "from": 16.097
+  },
+  {
+   "name": "hinton_b",
+   "from": 16.985
+  },
+  {
+   "name": "wreck",
+   "from": 17.429
+  },
+  {
+   "name": "redsrv",
+   "from": 17.874
+  },
+  {
+   "name": "h100",
+   "from": 18.318
+  },
+  {
+   "name": "chip",
+   "from": 18.762
+  },
+  {
+   "name": "leds",
+   "from": 18.984
+  },
+  {
+   "name": "nnet2",
+   "from": 19.206
+  },
+  {
+   "name": "robot2",
+   "from": 19.428
+  },
+  {
+   "name": "goal",
+   "from": 19.65,
+   "flash": true
+  },
+  {
+   "name": "walker",
+   "from": 20.094
+  },
+  {
+   "name": "chat2",
+   "from": 20.538
+  },
+  {
+   "name": "hinton_c",
+   "from": 21.426
+  },
+  {
+   "name": "nnet3",
+   "from": 22.315
+  },
+  {
+   "name": "kick",
+   "from": 23.203
+  },
+  {
+   "name": "board",
+   "from": 24.091
+  },
+  {
+   "name": "redsrv2",
+   "from": 25.868
+  },
+  {
+   "name": "hinton_end",
+   "from": 26.756
+  }
+ ],
+ "captions": [
+  {
+   "w": [
+    0,
+    1
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    2,
+    4
+   ]
+  },
+  {
+   "w": [
+    5,
+    7
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    8,
+    10
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    11,
+    12
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    13,
+    15
+   ]
+  },
+  {
+   "w": [
+    16,
+    18
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    19,
+    20
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    21,
+    23
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    24,
+    26
+   ]
+  },
+  {
+   "w": [
+    27,
+    28
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    29,
+    31
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    32,
+    33
+   ]
+  },
+  {
+   "w": [
+    34,
+    36
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    37,
+    39
+   ]
+  },
+  {
+   "w": [
+    40,
+    42
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    43,
+    46
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    47,
+    49
+   ]
+  },
+  {
+   "w": [
+    50,
+    52
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    53,
+    54
+   ]
+  },
+  {
+   "w": [
+    55,
+    57
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    58,
+    60
+   ]
+  },
+  {
+   "w": [
+    61,
+    61
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    62,
+    62
+   ]
+  },
+  {
+   "w": [
+    63,
+    64
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    65,
+    66
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    67,
+    68
+   ]
+  },
+  {
+   "w": [
+    69,
+    70
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    71,
+    73
+   ]
+  },
+  {
+   "w": [
+    74,
+    75
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    76,
+    77
+   ]
+  },
+  {
+   "w": [
+    78,
+    80
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    81,
+    81
+   ]
+  },
+  {
+   "w": [
+    82,
+    84
+   ]
+  },
+  {
+   "w": [
+    85,
+    86
+   ],
+   "glass": true
+  }
+ ]
+}

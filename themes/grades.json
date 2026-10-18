@@ -1,0 +1,14 @@
+{
+  "_doc": "ffmpeg colour grades, one dominant colour per shot. Shared by tools/lib.sh and tools/reel.py; a theme adds its own in themes/<theme>.json \"grades\".",
+  "BW":    "hue=s=0,eq=contrast=1.25:brightness=-0.03",
+  "OLD":   "eq=saturation=0.55:contrast=1.1,colorbalance=rs=0.06:bs=-0.06",
+  "NOW":   "eq=saturation=0.9:contrast=1.08",
+  "DARK":  "eq=saturation=0.75:contrast=1.15:brightness=-0.05,colorbalance=bs=0.05:rs=-0.02",
+  "COLD":  "eq=saturation=0.6:contrast=1.12,colorbalance=rs=-0.10:bs=0.18:rm=-0.06:bm=0.10",
+  "TEAL":  "eq=saturation=0.7:contrast=1.12,colorbalance=rs=-0.14:gs=0.04:bs=0.10:rm=-0.08:bm=0.05",
+  "AMBER": "eq=saturation=0.9:contrast=1.1,colorbalance=rs=0.14:gs=0.03:bs=-0.16:rm=0.10:bm=-0.10",
+  "RED":   "eq=saturation=1.1:contrast=1.15,colorbalance=rs=0.20:gs=-0.08:bs=-0.05",
+  "BLEAK": "eq=saturation=0.35:contrast=1.08:brightness=-0.03,colorbalance=bs=0.08:bm=0.04",
+  "VIVID": "eq=saturation=1.15:contrast=1.15,colorbalance=rs=0.08:bs=-0.06",
+  "WARM":  "eq=saturation=0.85:contrast=1.08,colorbalance=rm=0.04:bm=-0.04"
+}

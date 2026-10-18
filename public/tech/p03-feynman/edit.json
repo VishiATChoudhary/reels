@@ -1,0 +1,414 @@
+{
+ "frame": "card",
+ "end": 32.66,
+ "voFrom": 0,
+ "music": [
+  {
+   "src": "shared/music/before.mp3",
+   "start": 9.64,
+   "at": 0,
+   "volume": 0.32
+  }
+ ],
+ "headline": {
+  "text": "feynman explained ai in 1985 with a *cheetah*",
+  "to": 3.094
+ },
+ "hook": {
+  "text": "a machine",
+  "to": 1.24
+ },
+ "shots": [
+  {
+   "name": "fey_hook",
+   "from": 0,
+   "zoom": 1.6,
+   "origin": "40% 6%"
+  },
+  {
+   "name": "cheetah",
+   "from": 1.274
+  },
+  {
+   "name": "indy",
+   "from": 3.094
+  },
+  {
+   "name": "burnout",
+   "from": 4.459
+  },
+  {
+   "name": "wright",
+   "from": 5.53
+  },
+  {
+   "name": "gull",
+   "from": 6.733
+  },
+  {
+   "name": "concorde1",
+   "from": 7.643
+  },
+  {
+   "name": "gull2",
+   "from": 8.553
+  },
+  {
+   "name": "fey_a",
+   "from": 10.17
+  },
+  {
+   "name": "eniac1",
+   "from": 11.282
+  },
+  {
+   "name": "chalk",
+   "from": 13.102
+  },
+  {
+   "name": "calcs1",
+   "from": 15.21
+  },
+  {
+   "name": "calcs2",
+   "from": 15.831
+  },
+  {
+   "name": "calcs3",
+   "from": 16.741
+  },
+  {
+   "name": "ibm1",
+   "from": 17.65
+  },
+  {
+   "name": "eniac2",
+   "from": 18.105
+  },
+  {
+   "name": "craylit",
+   "from": 18.56
+  },
+  {
+   "name": "honey1",
+   "from": 19.015
+  },
+  {
+   "name": "tapes",
+   "from": 19.243
+  },
+  {
+   "name": "dragster",
+   "from": 19.47,
+   "flash": true
+  },
+  {
+   "name": "ibm2",
+   "from": 20.38
+  },
+  {
+   "name": "concorde2",
+   "from": 21.29
+  },
+  {
+   "name": "f15",
+   "from": 22.199
+  },
+  {
+   "name": "jetfan",
+   "from": 23.109
+  },
+  {
+   "name": "nnviz",
+   "from": 24.019
+  },
+  {
+   "name": "fey_c",
+   "from": 25.37
+  },
+  {
+   "name": "h100",
+   "from": 26.748
+  },
+  {
+   "name": "chalk2",
+   "from": 27.658
+  },
+  {
+   "name": "eniac3",
+   "from": 28.568
+  },
+  {
+   "name": "honey2",
+   "from": 29.932
+  },
+  {
+   "name": "calcs4",
+   "from": 30.842
+  },
+  {
+   "name": "fey_end",
+   "from": 31.297
+  }
+ ],
+ "captions": [
+  {
+   "w": [
+    7,
+    8
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    9,
+    11
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    12,
+    14
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    15,
+    18
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    19,
+    20
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    21,
+    22
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    23,
+    24
+   ]
+  },
+  {
+   "w": [
+    25,
+    27
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    28,
+    29
+   ]
+  },
+  {
+   "w": [
+    30,
+    33
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    34,
+    36
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    37,
+    38
+   ]
+  },
+  {
+   "w": [
+    39,
+    40
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    41,
+    44
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    45,
+    48
+   ]
+  },
+  {
+   "w": [
+    49,
+    49
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    50,
+    52
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    53,
+    54
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    55,
+    57
+   ]
+  },
+  {
+   "w": [
+    58,
+    60
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    61,
+    63
+   ]
+  },
+  {
+   "w": [
+    64,
+    67
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    68,
+    71
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    72,
+    72
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    73,
+    75
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    76,
+    78
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    79,
+    80
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    81,
+    82
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    83,
+    85
+   ]
+  },
+  {
+   "w": [
+    86,
+    87
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    88,
+    90
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    91,
+    93
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    94,
+    96
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    97,
+    99
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    100,
+    101
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    102,
+    105
+   ]
+  },
+  {
+   "w": [
+    106,
+    107
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    108,
+    109
+   ],
+   "glass": true
+  }
+ ]
+}

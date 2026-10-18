@@ -1,0 +1,14 @@
+{
+  "_doc": "Song library shared by every theme. drop = s into the track where the turning word lands; bpm drives the beat grid. Measured with tools/measure_song.py, then checked by ear. Files live in public/shared/music/ (git-ignored).",
+  "wild":            { "file": "wild.mp3",            "title": "WILD",            "by": "Encore", "bpm": 95.83,  "drop": 20.40, "feel": "cinematic, wide, rising" },
+  "before":          { "file": "before.mp3",          "title": "BEFORE",          "by": "Encore", "bpm": 131.9,  "drop": 29.11, "feel": "tense, quick" },
+  "medusa":          { "file": "medusa.mp3",          "title": "MEDUSA",          "by": "Encore", "bpm": 130.43, "drop": 40.42, "feel": "dark, second drop after a breakdown" },
+  "utopia":          { "file": "utopia.mp3",          "title": "UTOPIA",          "by": "Encore", "bpm": 75.0,   "drop": 51.20, "feel": "slow, dreamy, late drop" },
+  "storms-coming":   { "file": "storms-coming.mp3",   "title": "STORMS COMING",   "by": "Encore", "bpm": 135.1,  "drop": 42.67, "feel": "ominous, heavy" },
+  "strike-me-down":  { "file": "strike-me-down.mp3",  "title": "STRIKE ME DOWN",  "by": "Encore", "bpm": 92.0,   "drop": 41.74, "feel": "choir, epic" },
+  "mercy":           { "file": "mercy.mp3",           "title": "MERCY",           "by": "Encore", "bpm": 153.9,  "drop": 37.40, "feel": "aggressive, fast" },
+  "savior":          { "file": "savior.mp3",          "title": "SAVIOR",          "by": "Encore", "bpm": 80.0,   "drop": 48.01, "feel": "soulful, gospel" },
+  "let-me-fall":     { "file": "let-me-fall.mp3",     "title": "LET ME FALL",     "by": "Encore", "bpm": 93.02,  "drop": 41.30, "feel": "melancholy, emotional" },
+  "humble-yourself": { "file": "humble-yourself.mp3", "title": "HUMBLE YOURSELF", "by": "Encore", "bpm": 154.84, "drop": 49.63, "feel": "hard, triumphant" },
+  "for-you":         { "file": "for-you.mp3",         "title": "FOR YOU",         "by": "Encore", "bpm": 166.66, "drop": 19.72, "feel": "bright, early drop" }
+}

@@ -1,0 +1,365 @@
+{
+ "frame": "card",
+ "end": 35.36,
+ "voFrom": 0,
+ "music": [
+  {
+   "src": "shared/music/savior.mp3",
+   "start": 23.15,
+   "at": 0,
+   "volume": 0.32
+  }
+ ],
+ "headline": {
+  "text": "one protein used to cost a scientist five *years*",
+  "to": 3.11
+ },
+ "shots": [
+  {
+   "name": "lec_hook",
+   "from": 0,
+   "zoom": 1.4,
+   "origin": "65% 30%"
+  },
+  {
+   "name": "biologist",
+   "from": 1.61
+  },
+  {
+   "name": "student",
+   "from": 3.86
+  },
+  {
+   "name": "kendrew",
+   "from": 6.11
+  },
+  {
+   "name": "oneprot",
+   "from": 8.36
+  },
+  {
+   "name": "many",
+   "from": 10.61
+  },
+  {
+   "name": "lec_a",
+   "from": 12.86
+  },
+  {
+   "name": "afscreen",
+   "from": 14.18
+  },
+  {
+   "name": "screen60",
+   "from": 15.86
+  },
+  {
+   "name": "team",
+   "from": 17.36
+  },
+  {
+   "name": "servers",
+   "from": 18.86
+  },
+  {
+   "name": "chart",
+   "from": 20.36
+  },
+  {
+   "name": "spike",
+   "from": 21.11
+  },
+  {
+   "name": "cages",
+   "from": 21.86
+  },
+  {
+   "name": "sphere",
+   "from": 22.61
+  },
+  {
+   "name": "grid",
+   "from": 23.36
+  },
+  {
+   "name": "helix",
+   "from": 23.735
+  },
+  {
+   "name": "dc2",
+   "from": 24.11
+  },
+  {
+   "name": "fold2",
+   "from": 24.485
+  },
+  {
+   "name": "burst",
+   "from": 24.86,
+   "flash": true
+  },
+  {
+   "name": "pipette",
+   "from": 25.61
+  },
+  {
+   "name": "rainbow",
+   "from": 26.36
+  },
+  {
+   "name": "afprot",
+   "from": 27.11
+  },
+  {
+   "name": "zoomcall",
+   "from": 27.86
+  },
+  {
+   "name": "hassabis60",
+   "from": 28.61
+  },
+  {
+   "name": "syringe",
+   "from": 30.11
+  },
+  {
+   "name": "mosquito",
+   "from": 30.86
+  },
+  {
+   "name": "mri",
+   "from": 31.61
+  },
+  {
+   "name": "rainbow2",
+   "from": 32.36
+  },
+  {
+   "name": "medal",
+   "from": 33.11
+  }
+ ],
+ "captions": [
+  {
+   "w": [
+    0,
+    4
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    5,
+    7
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    8,
+    9
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    10,
+    12
+   ]
+  },
+  {
+   "w": [
+    16,
+    18
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    19,
+    21
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    22,
+    25
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    26,
+    27
+   ]
+  },
+  {
+   "w": [
+    28,
+    31
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    32,
+    35
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    37,
+    38
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    39,
+    39
+   ]
+  },
+  {
+   "w": [
+    40,
+    42
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    43,
+    46
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    47,
+    47
+   ]
+  },
+  {
+   "w": [
+    48,
+    52
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    53,
+    54
+   ]
+  },
+  {
+   "w": [
+    55,
+    56
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    57,
+    60
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    61,
+    62
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    63,
+    65
+   ]
+  },
+  {
+   "w": [
+    66,
+    66
+   ]
+  },
+  {
+   "w": [
+    67,
+    69
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    70,
+    73
+   ]
+  },
+  {
+   "w": [
+    74,
+    74
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    75,
+    77
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    78,
+    78
+   ]
+  },
+  {
+   "w": [
+    79,
+    82
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    83,
+    86
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    87,
+    89
+   ]
+  },
+  {
+   "w": [
+    90,
+    92
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    93,
+    95
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    96,
+    97
+   ],
+   "italic": true
+  }
+ ]
+}

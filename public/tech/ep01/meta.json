@@ -1,0 +1,27 @@
+{
+  "speaker": "Oliver Selfridge", "where": "MIT Lincoln Laboratory", "year": "1961",
+  "hook": "THINK",
+  "voDelay": 0.6,
+  "music": {"title": "The Long Dark, Scott Buckley (CC-BY 4.0, credit: 'The Long Dark' by Scott Buckley, www.scottbuckley.com.au)",
+            "url": "https://youtube.com/watch?v=8i_6R2zr9H8", "start": 57.0},
+  "fit": "fill",
+  "shots": [
+    {"name": "selfridge-desk", "dur": 0.6,  "note": "Selfridge at his desk, chalkboard behind, before he speaks"},
+    {"name": "checkers",       "dur": 0.4,  "note": "hand moves a piece on the checkers-playing computer's board"},
+    {"name": "relays",         "dur": 0.35, "note": "Bell Labs relay bank behind Theseus (1952, colour graded b/w)"},
+    {"name": "punch",          "dur": 0.4,  "note": "engineer reading a stack of punched cards at the card reader"},
+    {"name": "tapes",          "dur": 0.4,  "note": "reel-to-reel tape drives with operators"},
+    {"name": "mouse",          "dur": 0.45, "note": "Theseus, Shannon's maze-solving mouse, close"},
+    {"name": "console",        "dur": 0.5,  "note": "operator at the computer console, tape drives behind"},
+    {"name": "printer",        "dur": 0.6,  "note": "scientist leans over the teleprinter"},
+    {"name": "selfridge",      "dur": 2.0,  "note": "Selfridge to camera, lip sync ('...a man from a robot')"},
+    {"name": "keypunch",       "dur": 1.2,  "note": "hand on a keypunch keyboard, cards above"},
+    {"name": "maze",           "dur": 1.4,  "note": "Claude Shannon beside the Theseus maze"},
+    {"name": "racks",          "dur": 1.4,  "note": "bundled cable column through the relay racks"},
+    {"name": "testpanel",      "dur": 1.6,  "note": "engineer at the TEST PANEL"},
+    {"name": "selfridge2",     "dur": 3.6,  "note": "Selfridge to camera, lip sync, the key line begins ('I'm convinced that machines')"},
+    {"name": "dc",             "dur": 1.6,  "note": "modern data centre corridor ('can and will think in our')"},
+    {"name": "h100",           "dur": 2.15, "note": "NVIDIA H100 GPU modules ('lifetime') + tail"}
+  ],
+  "keyWords": ["think", "convinced", "lifetime"]
+}

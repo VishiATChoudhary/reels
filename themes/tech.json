@@ -1,0 +1,95 @@
+{
+  "id": "tech",
+  "prefix": "Tech",
+  "handle": "@HANDLE",
+  "frame": "card",
+  "music": {
+    "volume": 0.32,
+    "pool": [
+      "wild",
+      "before",
+      "medusa",
+      "utopia",
+      "storms-coming",
+      "strike-me-down",
+      "mercy",
+      "savior",
+      "let-me-fall",
+      "humble-yourself",
+      "for-you"
+    ]
+  },
+  "arc": {
+    "build": [
+      "COLD",
+      "BLEAK",
+      "TEAL"
+    ],
+    "turn": [
+      "AMBER",
+      "TEAL"
+    ],
+    "speaker": [
+      "WARM"
+    ],
+    "payoff": [
+      "VIVID",
+      "AMBER",
+      "RED",
+      "TEAL",
+      "COLD"
+    ]
+  },
+  "grades": {},
+  "look": {},
+  "episodes": [
+    {
+      "id": "Tech-P01-Jobs",
+      "ep": "p01-jobs"
+    },
+    {
+      "id": "Tech-P02-Jobs-Arc",
+      "ep": "p02-jobs-arc"
+    },
+    {
+      "id": "Tech-P03-Feynman",
+      "ep": "p03-feynman"
+    },
+    {
+      "id": "Tech-P04-Selfridge",
+      "ep": "p04-selfridge"
+    },
+    {
+      "id": "Tech-P05-Clarke",
+      "ep": "p05-clarke"
+    },
+    {
+      "id": "Tech-P06-Hinton",
+      "ep": "p06-hinton"
+    },
+    {
+      "id": "Tech-P07-Move37",
+      "ep": "p07-move37"
+    },
+    {
+      "id": "Tech-P08-Karpathy",
+      "ep": "p08-karpathy"
+    },
+    {
+      "id": "Tech-P09-Hassabis",
+      "ep": "p09-hassabis"
+    },
+    {
+      "id": "Tech-P10-Jobs-Life",
+      "ep": "p10-jobs-life"
+    },
+    {
+      "id": "Tech-P11-Jensen",
+      "ep": "p11-jensen"
+    },
+    {
+      "id": "Tech-P12-Hopper",
+      "ep": "p12-hopper"
+    }
+  ]
+}

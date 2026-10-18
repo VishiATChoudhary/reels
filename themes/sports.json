@@ -1,0 +1,46 @@
+{
+  "id": "sports",
+  "prefix": "Sports",
+  "handle": "@HANDLE",
+  "frame": "wide",
+  "music": {
+    "volume": 0.34,
+    "pool": [
+      "humble-yourself",
+      "mercy",
+      "storms-coming",
+      "medusa",
+      "strike-me-down",
+      "before"
+    ]
+  },
+  "arc": {
+    "build": [
+      "NIGHT",
+      "BLEAK",
+      "COLD",
+      "BW"
+    ],
+    "turn": [
+      "AMBER",
+      "COLD",
+      "GOLD"
+    ],
+    "speaker": [
+      "WARM",
+      "DARK"
+    ],
+    "payoff": [
+      "GOLD",
+      "VIVID",
+      "RED",
+      "AMBER"
+    ]
+  },
+  "grades": {
+    "NIGHT": "eq=saturation=0.55:contrast=1.2:brightness=-0.06,colorbalance=rs=-0.08:bs=0.20:rm=-0.04:bm=0.12",
+    "GOLD": "eq=saturation=1.1:contrast=1.15,colorbalance=rs=0.16:gs=0.08:bs=-0.18:rh=0.06:bh=-0.08"
+  },
+  "look": {},
+  "episodes": []
+}
