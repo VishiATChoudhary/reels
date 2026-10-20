@@ -1,0 +1,54 @@
+{
+ "drop": 28.16,
+ "musicStart": 13.58,
+ "segments": [
+  {
+   "reel": 0.0,
+   "file": "speaker",
+   "src": 8.33,
+   "dur": 3.62
+  },
+  {
+   "reel": 3.87,
+   "file": "speaker",
+   "src": 18.09,
+   "dur": 2.06
+  },
+  {
+   "reel": 6.23,
+   "file": "speaker",
+   "src": 25.98,
+   "dur": 3.47
+  },
+  {
+   "reel": 10.1,
+   "file": "speaker",
+   "src": 124.22,
+   "dur": 7.38
+  },
+  {
+   "reel": 17.83,
+   "file": "speaker",
+   "src": 176.72,
+   "dur": 5.76
+  },
+  {
+   "reel": 23.84,
+   "file": "speaker",
+   "src": 187.08,
+   "dur": 1.62
+  },
+  {
+   "reel": 25.66,
+   "file": "speaker",
+   "src": 189.68,
+   "dur": 2.12
+  },
+  {
+   "reel": 28.13,
+   "file": "speaker",
+   "src": 191.82,
+   "dur": 8.0
+  }
+ ]
+}

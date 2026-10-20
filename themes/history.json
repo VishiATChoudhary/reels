@@ -1,7 +1,7 @@
 {
   "id": "history",
   "prefix": "History",
-  "handle": "@HANDLE",
+  "handle": "@hey_synapse",
   "frame": "card",
   "music": { "volume": 0.30, "pool": ["strike-me-down", "savior", "let-me-fall", "utopia", "wild", "medusa"] },
   "arc": {

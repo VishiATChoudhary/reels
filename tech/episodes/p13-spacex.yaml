@@ -1,0 +1,115 @@
+# tech/p13-spacex: Musk, Falcon 1 reaches orbit on the fourth try (28 Sep 2008). Two Musk recordings: 60 Minutes
+# (CBS, 2012, with Scott Pelley) for the hook and the low point; his speech to SpaceX staff in Hawthorne right after
+# Flight 4 reached orbit (28 Sep 2008) for the turn, the climax and the payoff. "freakin' awesome" lands on the drop.
+# Build: python3 tools/reel.py build tech/p13-spacex   Render: npm run render -- Tech-P13-Spacex
+song: savior
+headline: elon musk had money for just one more *launch*
+headline_to: 3
+end: b16
+
+sources:
+  sixty:   {url: "https://www.youtube.com/watch?v=23GzpbNUyI4", crop: "1700:940:110:0"}   # 60 Minutes 2012; crop hides the 60 Overtime bug
+  speech:  {url: "https://www.youtube.com/watch?v=8FQhtMrUQlE", section: "31:50-35:40"}   # Spacevidcast Flight 4 webcast, Musk to staff
+  fails:   {url: "https://www.youtube.com/watch?v=B5UzGrIxha4", crop: "1454:1080:240:0"}   # Falcon 1 flights 1 to 3 (raw replaced with the 1080p download)
+  flight4: {url: "https://www.youtube.com/watch?v=mq2hymWPN1I"}                            # SpaceX, Falcon 1 Flight 4 (raw replaced with 1080p)
+
+voice:
+  src: sixty
+  whisper: [[509.90, 516.50], [speech, 66.40, 71.40], [534.35, 540.45], [speech, 72.40, 75.90], [speech, 52.40, 54.75], [speech, 90.10, 94.90], [speech, 108.85, 111.98]]
+  climax: {seg: 5, word: freak}
+  segments:
+    - [509.95, 516.50, 0.30]          # I don't ever give up. I mean, I'd have to be dead or completely incapacitated.
+    - [speech, 66.45, 71.40, 0.30]    # And there are a lot of people that thought we couldn't do it. A lot, actually.
+    - [534.40, 540.45, 0.30]          # If that fourth launch hadn't worked, that would have been it. We would have not had the resources to mount a fifth.
+    - [speech, 72.45, 75.90, 0.35]    # But, you know, as the saying goes, fourth time's the charm, right?
+    - [speech, 52.45, 52.78, 0]       # that was
+    - [speech, 52.78, 54.75, 0.30]    # CLIMAX: freakin' awesome. We made orbit.
+    - [speech, 90.15, 94.90, 0.30]    # There's only a handful of countries on Earth that have done it. It's normally a country thing, not a company thing.
+    - [speech, 108.90, 111.98, 0]     # definitely this is one of the greatest days of my life
+  fix: [["can", "couldn't"], ["time to", "time's"], ["it over now", "orbit"]]
+
+shots:
+  # hook: Musk on 60 Minutes, lip-synced
+  - 0       hook       sixty@sync     WARM   zoom=1.3 origin=45%,35%
+  # build-up: slow, cold
+  - 1.55    fire       fails@180.5    BLEAK
+  - b-24    musk_a     sixty@sync     WARM
+  - 6.45    omelek     flight4@22.0   COLD   crop=1128:860:396:60
+  - b-18    farfail    flight4@43.0   TEAL   crop=1200:820:360:120
+  - b-15    debris     sixty@517.5    COLD
+  - b-13    hosts      sixty@495.0    BLEAK
+  - b-11    musk_b     sixty@sync     WARM
+  - b-8     wreck      flight4@141.5  BLEAK
+  # turn and riser
+  - s3      pad        flight4@40.0   AMBER  crop=1200:820:360:120
+  - b-4     stages     flight4@106.0  TEAL   crop=1200:840:360:120
+  - b-3     control    flight4@115.2  AMBER  crop=960:540:480:270
+  - b-2     ready      sixty@478.5    TEAL
+  - b-1.5   ignite     sixty@480.0    AMBER
+  - b-1     liftph     flight4@100.5  TEAL   crop=1152:878:384:120
+  - b-0.5   flame      sixty@481.3    AMBER
+  # drop and payoff
+  - b0      liftoff    sixty@482.6    VIVID  flash
+  - b1      orbit      sixty@532.0    TEAL
+  - b3      earth      flight4@126.0  COLD   crop=986:840:466:120
+  - b5      cheer      flight4@116.3  AMBER  crop=960:540:480:270
+  - b7      crowd      flight4@118.5  RED    crop=1200:776:360:152
+  - b9      musk_2008  speech@sync    WARM
+  - b11     team       flight4@129.0  VIVID  crop=1200:840:360:120
+  - b13     toast      flight4@143.5  AMBER
+  - b15     musk_end   sixty@545.0    WARM
+
+captions:
+  - i don't | glass
+  - ever give up | stack
+  - i mean
+  - i'd have | stack
+  - to be
+  - dead | italic
+  - or completely | stack
+  - incapacitated
+  - and there are
+  - a lot of | stack
+  - people
+  - that thought | stack
+  - we couldn't | stack
+  - do it
+  - a lot
+  - actually | italic
+  - if that
+  - fourth launch | stack
+  - hadn't worked | stack
+  - that would have
+  - been it | glass
+  - we would have
+  - not had | stack
+  - the resources | stack
+  - to mount
+  - a fifth | stack
+  - but
+  - ~ you know it's saying go it's
+  - fourth time's | stack
+  - the charm | stack
+  - right
+  - that was
+  - freaking | italic
+  - awesome
+  - we made | stack
+  - orbit | glass
+  - ~ it's
+  - only a handful | stack
+  - of countries | stack
+  - on earth | stack
+  - that have
+  - done it | italic
+  - it's
+  - ~ only
+  - a country thing | stack
+  - not a
+  - company thing | stack
+  - definitely
+  - this is one
+  - of the
+  - greatest
+  - days
+  - of my life | glass

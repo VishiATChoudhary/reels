@@ -1,0 +1,120 @@
+{
+ "drop": 29.06,
+ "musicStart": 0.05,
+ "segments": [
+  {
+   "reel": 0.0,
+   "file": "randolph",
+   "src": 19.42,
+   "dur": 0.85
+  },
+  {
+   "reel": 0.93,
+   "file": "randolph",
+   "src": 21.05,
+   "dur": 0.37
+  },
+  {
+   "reel": 1.4,
+   "file": "randolph",
+   "src": 22.05,
+   "dur": 2.1
+  },
+  {
+   "reel": 3.8,
+   "file": "randolph",
+   "src": 31.6,
+   "dur": 1.95
+  },
+  {
+   "reel": 6.1,
+   "file": "randolph",
+   "src": 122.27,
+   "dur": 1.78
+  },
+  {
+   "reel": 8.18,
+   "file": "randolph",
+   "src": 134.85,
+   "dur": 0.83
+  },
+  {
+   "reel": 9.09,
+   "file": "randolph",
+   "src": 136.15,
+   "dur": 0.47
+  },
+  {
+   "reel": 9.81,
+   "file": "randolph",
+   "src": 137.25,
+   "dur": 2.5
+  },
+  {
+   "reel": 12.56,
+   "file": "randolph",
+   "src": 141.5,
+   "dur": 2.55
+  },
+  {
+   "reel": 15.26,
+   "file": "randolph",
+   "src": 145.05,
+   "dur": 1.37
+  },
+  {
+   "reel": 16.93,
+   "file": "randolph",
+   "src": 147.25,
+   "dur": 1.65
+  },
+  {
+   "reel": 19.03,
+   "file": "randolph",
+   "src": 149.85,
+   "dur": 1.1
+  },
+  {
+   "reel": 20.58,
+   "file": "randolph",
+   "src": 152.05,
+   "dur": 1.0
+  },
+  {
+   "reel": 21.98,
+   "file": "randolph",
+   "src": 154.45,
+   "dur": 2.7
+  },
+  {
+   "reel": 25.03,
+   "file": "randolph",
+   "src": 165.55,
+   "dur": 2.43
+  },
+  {
+   "reel": 27.71,
+   "file": "randolph",
+   "src": 168.95,
+   "dur": 0.93
+  },
+  {
+   "reel": 28.99,
+   "file": "randolph",
+   "src": 169.88,
+   "dur": 0.9
+  },
+  {
+   "reel": 30.19,
+   "file": "randolph",
+   "src": 174.75,
+   "dur": 1.7
+  },
+  {
+   "reel": 32.19,
+   "file": "randolph",
+   "src": 180.0,
+   "dur": 3.15
+  }
+ ]
+}

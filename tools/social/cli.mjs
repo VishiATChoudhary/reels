@@ -4,7 +4,7 @@
 //   whoami                             account + follower stats for every configured platform
 //   post <Id>... [--only x,instagram,tiktok] [--tiktok draft|private|public|browser] [--dry]
 //   metrics [--only ...]               stats for everything in posts/ledger.jsonl (+ recent TikToks)
-// Video: out/<Id>.mp4. Caption: posts/<Id>.txt. Credentials: macOS Keychain via `vault`.
+// Video: out/<Id>.mp4. Caption: posts/<Id>.txt. Credentials: env vars, the `vault` CLI, or ~/.reels/keys.json (lib.mjs).
 import { existsSync } from "node:fs";
 import * as browser from "./browser.mjs";
 import * as instagram from "./instagram.mjs";
@@ -40,7 +40,7 @@ if (cmd === "setup") {
   for (const [p, entry] of Object.entries(SETUP)) {
     const keys = entry.slice(0, -1), missing = keys.filter((k) => !vault.get(k));
     console.log(`${p}: ${missing.length ? `missing ${missing.join(", ")}` : "keys ok"}${p === "tiktok" && !missing.length && !tiktok.ready() ? " (not logged in)" : ""}`);
-    if (missing.length) console.log(`  ${entry.at(-1)}\n  store each with: vault set <KEY>\n`);
+    if (missing.length) console.log(`  ${entry.at(-1)}\n  set each as an env var or in ~/.reels/keys.json\n`);
   }
   console.log(`tiktok-browser fallback: ${existsSync(`${process.env.HOME}/.reels/chrome`) ? "profile exists" : "not logged in (npm run social -- login tiktok-browser)"}`);
 } else if (cmd === "login") {

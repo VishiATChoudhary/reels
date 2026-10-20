@@ -1,7 +1,7 @@
 import { loadFont as loadWide } from "@remotion/google-fonts/Michroma";
 
-// Placeholder until the accounts exist: swap for the real handle in one place.
-export const HANDLE = "@HANDLE";
+// Default handle; each theme can set its own in themes/<theme>.json.
+export const HANDLE = "@hey_synapse";
 
 export const W = 1080;
 export const H = 1920;

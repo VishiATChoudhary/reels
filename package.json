@@ -1,5 +1,7 @@
 {
   "name": "reels",
+  "description": "Spec-driven 9:16 story reels: one real voice, one song, the turning word on the drop.",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "studio": "remotion studio",

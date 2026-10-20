@@ -1,7 +1,8 @@
 import React from "react";
-import { AbsoluteFill, Sequence, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, Easing, Sequence, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { Audio, Video } from "@remotion/media";
 import { FPS, H, HANDLE, INK, SANS, W, WIDE, clamp } from "./style";
+import { COLLAPSE, NODE, OUTRO, Outro } from "./Outro";
 
 // One short in the reference style (tech/STYLE.md): footage in a single frame on black, a real voice,
 // lowercase Helvetica captions that fade in word by word, glass caps for the key words, music under the
@@ -20,7 +21,8 @@ export type EditData = {
   captions: Caption[];
 };
 // handle and font come from the theme (themes/<theme>.json: "handle", "look.font")
-export type EditProps = { theme: string; ep: string; handle?: string; font?: string; edit?: EditData; words?: Word[] };
+// outro: false skips the Synapse end card (themes/<theme>.json: "outro")
+export type EditProps = { theme: string; ep: string; handle?: string; font?: string; outro?: boolean; edit?: EditData; words?: Word[] };
 const Font = React.createContext(SANS);
 
 // the frame the footage sits in (measured from the references)
@@ -153,39 +155,55 @@ const Headline: React.FC<{ edit: EditData }> = ({ edit }) => {
   );
 };
 
-export const Edit: React.FC<EditProps> = ({ theme, ep, handle = HANDLE, font = SANS, edit, words }) => {
+export const Edit: React.FC<EditProps> = ({ theme, ep, handle = HANDLE, font = SANS, outro = true, edit, words }) => {
   const f = useCurrentFrame();
   const { durationInFrames: end } = useVideoConfig();
   if (!edit || !words) return null;
   const base = `${theme}/${ep}`;
   const fr = frameOf(edit);
-  const shots = edit.shots.map((s, i) => ({ ...s, a: sec(s.from), b: i + 1 < edit.shots.length ? sec(edit.shots[i + 1].from) : end }));
+  // at edit.end the card collapses into the Synapse mark's open node and the end card runs on, music still under it
+  const body = sec(edit.end);
+  const shots = edit.shots.map((s, i) => ({ ...s, a: sec(s.from), b: i + 1 < edit.shots.length ? sec(edit.shots[i + 1].from) : body }));
+  const k = outro ? interpolate(f, [body - COLLAPSE, body], [0, 1], { ...clamp, easing: Easing.bezier(0.7, 0, 0.25, 1) }) : 0;
+  const lerp = (a: number, b: number) => a + (b - a) * k;
+  const card = { left: lerp(fr.left, NODE.left), top: lerp(fr.top, NODE.top), width: lerp(fr.width, NODE.width), height: lerp(fr.height, NODE.height), borderRadius: lerp(fr.radius, NODE.radius) };
+  const words_ = k > 0 ? { opacity: interpolate(k, [0, 0.4], [1, 0], clamp) } : {};
   return (
     <Font.Provider value={font}>
     <AbsoluteFill style={{ background: "#000" }}>
       {/* everything that sits on the picture shares its stacking context, so the glass blends with the footage */}
       <AbsoluteFill>
-        <div style={{ position: "absolute", left: fr.left, top: fr.top, width: fr.width, height: fr.height, borderRadius: fr.radius, overflow: "hidden", background: "#000" }}>
+        <div style={{ position: "absolute", ...card, overflow: "hidden", background: "#000" }}>
+          <AbsoluteFill style={{ opacity: interpolate(k, [0.4, 0.85], [1, 0], clamp) }}>
           {shots.filter((s) => s.name !== "black").map((s) => (
             <Sequence key={s.name + s.a} from={s.a} durationInFrames={s.b - s.a} layout="none">
               <Shot src={staticFile(`${base}/cuts/${s.name}.mp4`)} dur={s.b - s.a} zoom={s.zoom} origin={s.origin} flash={s.flash} />
             </Sequence>
           ))}
+          </AbsoluteFill>
         </div>
-        <Hook edit={edit} />
-        <Headline edit={edit} />
-        <Captions edit={edit} words={words} />
-        <div style={{ position: "absolute", left: 0, width: W, top: fr.top + fr.height - 58, textAlign: "center", fontFamily: WIDE, fontSize: 19, letterSpacing: "0.5em", color: INK, opacity: 0.85 }}>
-          {handle.toUpperCase()}
-        </div>
+        {k > 0 && <div style={{ position: "absolute", ...card, border: `${NODE.stroke * k}px solid #F1EFE9`, boxSizing: "border-box" }} />}
+        {/* faded only while collapsing: an opacity parent would isolate the glass blend from the footage */}
+        <AbsoluteFill style={words_}>
+          <Hook edit={edit} />
+          <Headline edit={edit} />
+          <Captions edit={edit} words={words} />
+          <div style={{ position: "absolute", left: 0, width: W, top: fr.top + fr.height - 58, textAlign: "center", fontFamily: WIDE, fontSize: 19, letterSpacing: "0.5em", color: INK, opacity: 0.85 }}>
+            {handle.toUpperCase()}
+          </div>
+        </AbsoluteFill>
       </AbsoluteFill>
-      <AbsoluteFill style={{ background: "#000", opacity: interpolate(f, [end - 10, end], [0, 1], clamp) }} />
+      {outro && (
+        <Sequence from={body} layout="none">
+          <Outro handle={handle} font={font} />
+        </Sequence>
+      )}
       {edit.music.map((m, i) => {
         const at = sec(m.at ?? 0);
         const len = m.dur ? sec(m.dur) : end - at;
         return (
           <Sequence key={i} from={at} durationInFrames={len} layout="none">
-            <Audio src={staticFile(m.src)} trimBefore={sec(m.start)} volume={(t) => m.volume * interpolate(t, [len - (m.dur ? 3 : 12), len], [1, 0], clamp)} />
+            <Audio src={staticFile(m.src)} trimBefore={sec(m.start)} volume={(t) => m.volume * interpolate(t, [len - (m.dur ? 3 : 24), len], [1, 0], clamp)} />
           </Sequence>
         );
       })}
@@ -203,6 +221,6 @@ export const calcEdit = async ({ props }: { props: EditProps }) => {
   const load = <T,>(f: string) => fetch(staticFile(`${base}/${f}`)).then((r) => (r.ok ? (r.json() as Promise<T>) : undefined));
   const [edit, words] = await Promise.all([load<EditData>("edit.json"), load<Word[]>("words.json")]);
   if (!edit || !words) return {};
-  return { durationInFrames: sec(edit.end), props: { ...props, edit, words } };
+  return { durationInFrames: sec(edit.end) + (props.outro === false ? 0 : OUTRO), props: { ...props, edit, words } };
 };
 

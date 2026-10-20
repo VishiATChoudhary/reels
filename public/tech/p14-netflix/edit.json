@@ -1,0 +1,471 @@
+{
+ "frame": "card",
+ "end": 36.34,
+ "voFrom": 0,
+ "music": [
+  {
+   "src": "shared/music/before.mp3",
+   "start": 0.05,
+   "at": 0,
+   "volume": 0.32
+  }
+ ],
+ "shots": [
+  {
+   "name": "hook",
+   "from": 0.0
+  },
+  {
+   "name": "bb_sign",
+   "from": 1.312
+  },
+  {
+   "name": "aisle",
+   "from": 2.676
+  },
+  {
+   "name": "mailbox",
+   "from": 3.8
+  },
+  {
+   "name": "envelope",
+   "from": 5.861
+  },
+  {
+   "name": "pitch",
+   "from": 6.1
+  },
+  {
+   "name": "board",
+   "from": 8.18
+  },
+  {
+   "name": "board2",
+   "from": 9.81
+  },
+  {
+   "name": "pay",
+   "from": 11.774
+  },
+  {
+   "name": "reed",
+   "from": 12.56
+  },
+  {
+   "name": "reed2",
+   "from": 14.049
+  },
+  {
+   "name": "said",
+   "from": 15.26
+  },
+  {
+   "name": "cash",
+   "from": 16.93
+  },
+  {
+   "name": "what",
+   "from": 19.03
+  },
+  {
+   "name": "laugh",
+   "from": 20.58
+  },
+  {
+   "name": "tower",
+   "from": 21.98
+  },
+  {
+   "name": "downhill",
+   "from": 23.601
+  },
+  {
+   "name": "jet",
+   "from": 25.03
+  },
+  {
+   "name": "jet2",
+   "from": 25.876
+  },
+  {
+   "name": "ugh",
+   "from": 26.786
+  },
+  {
+   "name": "sort1",
+   "from": 27.695
+  },
+  {
+   "name": "env1",
+   "from": 28.15
+  },
+  {
+   "name": "pack1",
+   "from": 28.378
+  },
+  {
+   "name": "sort2",
+   "from": 28.605
+  },
+  {
+   "name": "env2",
+   "from": 28.833
+  },
+  {
+   "name": "kick",
+   "from": 29.06,
+   "flash": true
+  },
+  {
+   "name": "bb_down",
+   "from": 29.515
+  },
+  {
+   "name": "sorter",
+   "from": 29.97
+  },
+  {
+   "name": "warehouse",
+   "from": 30.425
+  },
+  {
+   "name": "nflx_hq",
+   "from": 30.88
+  },
+  {
+   "name": "years",
+   "from": 31.334
+  },
+  {
+   "name": "bb_store",
+   "from": 32.19
+  },
+  {
+   "name": "bb_inside",
+   "from": 32.699
+  },
+  {
+   "name": "bb_card",
+   "from": 33.609
+  },
+  {
+   "name": "bb_end",
+   "from": 34.519
+  },
+  {
+   "name": "marc_end",
+   "from": 35.428
+  }
+ ],
+ "captions": [
+  {
+   "w": [
+    0,
+    0
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    1,
+    1
+   ]
+  },
+  {
+   "w": [
+    2,
+    3
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    4,
+    4
+   ]
+  },
+  {
+   "w": [
+    5,
+    6
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    7,
+    8
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    9,
+    10
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    11,
+    12
+   ]
+  },
+  {
+   "w": [
+    13,
+    14
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    15,
+    16
+   ]
+  },
+  {
+   "w": [
+    17,
+    18
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    19,
+    20
+   ]
+  },
+  {
+   "w": [
+    21,
+    23
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    24,
+    24
+   ]
+  },
+  {
+   "w": [
+    25,
+    27
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    28,
+    30
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    31,
+    32
+   ]
+  },
+  {
+   "w": [
+    33,
+    35
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    36,
+    37
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    38,
+    39
+   ]
+  },
+  {
+   "w": [
+    40,
+    42
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    43,
+    45
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    46,
+    47
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    48,
+    49
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    50,
+    52
+   ]
+  },
+  {
+   "w": [
+    53,
+    54
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    55,
+    56
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    57,
+    59
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    60,
+    61
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    62,
+    63
+   ]
+  },
+  {
+   "w": [
+    64,
+    65
+   ]
+  },
+  {
+   "w": [
+    66,
+    68
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    69,
+    70
+   ]
+  },
+  {
+   "w": [
+    71,
+    72
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    73,
+    74
+   ]
+  },
+  {
+   "w": [
+    75,
+    75
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    76,
+    77
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    78,
+    80
+   ]
+  },
+  {
+   "w": [
+    81,
+    81
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    82,
+    83
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    84,
+    86
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    87,
+    88
+   ]
+  },
+  {
+   "w": [
+    89,
+    90
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    91,
+    92
+   ]
+  },
+  {
+   "w": [
+    93,
+    93
+   ]
+  },
+  {
+   "w": [
+    94,
+    95
+   ],
+   "glass": true
+  }
+ ],
+ "headline": {
+  "text": "blockbuster could have bought netflix for $50 million. they *laughed*",
+  "to": 3.131
+ }
+}

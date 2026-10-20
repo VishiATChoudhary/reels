@@ -1,0 +1,451 @@
+{
+ "frame": "card",
+ "end": 34.58,
+ "voFrom": 0,
+ "music": [
+  {
+   "src": "shared/music/savior.mp3",
+   "start": 25.43,
+   "at": 0,
+   "volume": 0.32
+  }
+ ],
+ "shots": [
+  {
+   "name": "hook",
+   "from": 0.0,
+   "zoom": 1.3,
+   "origin": "45% 35%"
+  },
+  {
+   "name": "fire",
+   "from": 1.55
+  },
+  {
+   "name": "musk_a",
+   "from": 4.58
+  },
+  {
+   "name": "omelek",
+   "from": 6.45
+  },
+  {
+   "name": "farfail",
+   "from": 9.08
+  },
+  {
+   "name": "debris",
+   "from": 11.33
+  },
+  {
+   "name": "hosts",
+   "from": 12.83
+  },
+  {
+   "name": "musk_b",
+   "from": 14.33
+  },
+  {
+   "name": "wreck",
+   "from": 16.58
+  },
+  {
+   "name": "pad",
+   "from": 18.45
+  },
+  {
+   "name": "stages",
+   "from": 19.58
+  },
+  {
+   "name": "control",
+   "from": 20.33
+  },
+  {
+   "name": "ready",
+   "from": 21.08
+  },
+  {
+   "name": "ignite",
+   "from": 21.455
+  },
+  {
+   "name": "liftph",
+   "from": 21.83
+  },
+  {
+   "name": "flame",
+   "from": 22.205
+  },
+  {
+   "name": "liftoff",
+   "from": 22.58,
+   "flash": true
+  },
+  {
+   "name": "orbit",
+   "from": 23.33
+  },
+  {
+   "name": "earth",
+   "from": 24.83
+  },
+  {
+   "name": "cheer",
+   "from": 26.33
+  },
+  {
+   "name": "crowd",
+   "from": 27.83
+  },
+  {
+   "name": "musk_2008",
+   "from": 29.33
+  },
+  {
+   "name": "team",
+   "from": 30.83
+  },
+  {
+   "name": "toast",
+   "from": 32.33
+  },
+  {
+   "name": "musk_end",
+   "from": 33.83
+  }
+ ],
+ "captions": [
+  {
+   "w": [
+    0,
+    1
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    2,
+    4
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    5,
+    6
+   ]
+  },
+  {
+   "w": [
+    7,
+    8
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    9,
+    10
+   ]
+  },
+  {
+   "w": [
+    11,
+    11
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    12,
+    13
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    14,
+    14
+   ]
+  },
+  {
+   "w": [
+    15,
+    17
+   ]
+  },
+  {
+   "w": [
+    18,
+    20
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    21,
+    21
+   ]
+  },
+  {
+   "w": [
+    22,
+    23
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    24,
+    25
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    26,
+    27
+   ]
+  },
+  {
+   "w": [
+    28,
+    29
+   ]
+  },
+  {
+   "w": [
+    30,
+    30
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    31,
+    32
+   ]
+  },
+  {
+   "w": [
+    33,
+    34
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    35,
+    36
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    37,
+    39
+   ]
+  },
+  {
+   "w": [
+    40,
+    41
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    42,
+    44
+   ]
+  },
+  {
+   "w": [
+    45,
+    46
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    47,
+    48
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    49,
+    50
+   ]
+  },
+  {
+   "w": [
+    51,
+    52
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    53,
+    53
+   ]
+  },
+  {
+   "w": [
+    60,
+    61
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    62,
+    63
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    64,
+    64
+   ]
+  },
+  {
+   "w": [
+    65,
+    66
+   ]
+  },
+  {
+   "w": [
+    67,
+    67
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    68,
+    68
+   ]
+  },
+  {
+   "w": [
+    69,
+    70
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    71,
+    71
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    73,
+    75
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    76,
+    77
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    78,
+    79
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    80,
+    81
+   ]
+  },
+  {
+   "w": [
+    82,
+    83
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    84,
+    84
+   ]
+  },
+  {
+   "w": [
+    86,
+    88
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    89,
+    90
+   ]
+  },
+  {
+   "w": [
+    91,
+    92
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    93,
+    93
+   ]
+  },
+  {
+   "w": [
+    94,
+    96
+   ]
+  },
+  {
+   "w": [
+    97,
+    98
+   ]
+  },
+  {
+   "w": [
+    99,
+    99
+   ]
+  },
+  {
+   "w": [
+    100,
+    100
+   ]
+  },
+  {
+   "w": [
+    101,
+    103
+   ],
+   "glass": true
+  }
+ ],
+ "headline": {
+  "text": "elon musk had money for just one more *launch*",
+  "to": 3.0
+ }
+}

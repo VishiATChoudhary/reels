@@ -1,0 +1,142 @@
+# tech/p14-netflix: one real voice, setup on the build-up, the turning word on the drop (RECIPE.md).
+# Build: python3 tools/reel.py build tech/p14-netflix   Render: npm run render -- Tech-P14-Netflix
+song: before                    # themes/songs.json (wild, before, medusa, utopia, storms-coming, strike-me-down, mercy, savior, let-me-fall, humble-yourself, for-you)
+headline: blockbuster could have bought netflix for $50 million. they *laughed*
+headline_to: b-57                 # until when (seconds, bN = N beats from the drop, sN = segment N starts)
+end: b16
+
+sources:                          # each becomes raw/<name>.mp4
+  randolph: {url: "https://www.youtube.com/watch?v=NnPzhPA29E0"}   # Marc Randolph keynote, his channel, 2022
+  store93:  {url: "https://www.youtube.com/watch?v=HFNfVDQdMxs"}   # renting videos at a Blockbuster store, 1993
+  bbad:     {url: "https://www.youtube.com/watch?v=8hFYN9--Fp4"}   # Blockbuster commercial, 1997
+  sorting:  {url: "https://www.youtube.com/watch?v=dpoDYQCVYlQ"}   # sorting Netflix DVD envelopes
+  packing:  {url: "https://www.youtube.com/watch?v=CWA0LKfEv3c"}   # Netflix packing DVDs
+  envend:   {url: "https://www.youtube.com/watch?v=Ma4ujeFUXSA"}   # WGN, red envelopes final trip
+  bankrupt: {url: "https://www.youtube.com/watch?v=sBxJ3Ps4WvQ"}   # AP, Blockbuster files for bankruptcy
+  closing:  {url: "https://www.youtube.com/watch?v=PlkQWWY9-rY"}   # CNN, Blockbuster to close all stores
+  suits:    {url: "https://www.youtube.com/watch?v=nUUZJMljwjY"}   # businessmen in boardroom meetings
+  meeting:  {url: "https://www.youtube.com/watch?v=ATWSWEVMD5Q"}   # 1990s office meeting
+  jet:      {url: "https://www.youtube.com/watch?v=-XrYL7AjSZY"}   # 1990s private jet taking off
+  tower:    {url: "https://www.youtube.com/watch?v=MoB_3mgyK0Q"}   # Renaissance Tower, Dallas
+  sixty:    {url: "https://www.youtube.com/watch?v=OVcOF1BRv40"}   # 60 Minutes, Netflix
+  logo:     {url: "https://www.youtube.com/watch?v=GV3HUDMQ-F8"}   # Netflix logo animation
+  cash:     {url: "https://www.youtube.com/watch?v=MoJcxKVkgZU"}   # printing dollar bills
+  hq:       {url: "https://www.youtube.com/watch?v=GolFdvpNo8g"}   # inside Netflix headquarters
+  # broll:  {url: "...", section: "1:20-2:05"}
+  # same:   {link: tech/p02-jobs-arc/jobs}       reuse another episode's download
+
+voice:
+  src: randolph                   # default source of the segments
+  whisper: [[19.4, 24.3], [31.55, 33.9], [122.2, 124.4], [134.8, 140.0], [141.45, 144.3], [145.0, 146.6], [147.2, 149.1], [149.8, 151.2], [152.0, 153.3], [154.4, 157.6], [165.5, 168.1], [168.9, 171.2], [174.7, 177.0], [179.95, 183.6]]
+  climax: {seg: 16, word: kick}
+  segments:
+    - [19.42, 20.27, 0.08]    # Blockbuster
+    - [21.05, 21.42, 0.10]    # had
+    - [22.05, 24.15, 0.30]    # six billion dollars in revenue.
+    - [31.60, 33.55, 0.35]    # so Netflix was nothing to them
+    - [122.27, 124.05, 0.30]  # wouldn't it be great if you purchased us?
+    - [134.85, 135.68, 0.08]  # and they finally
+    - [136.15, 136.62, 0.25]  # said
+    - [137.25, 139.75, 0.25]  # so how much do you think we should pay for you?
+    - [141.50, 144.05, 0.15]  # So Reed screwed up all of his courage
+    - [145.05, 146.42, 0.30]  # and he said
+    - [147.25, 148.90, 0.45]  # fifty million dollars.
+    - [149.85, 150.95, 0.45]  # You know what they did?
+    - [152.05, 153.05, 0.40]  # They laughed at us.
+    - [154.45, 157.15, 0.35]  # And the meeting went downhill pretty quickly after that.
+    - [165.55, 167.98, 0.25]  # all I could do was say to myself, ugh
+    - [168.95, 169.88, 0.35]  # now we're gonna have to
+    - [169.88, 170.78, 0.30]  # CLIMAX: kick their ass
+    - [174.75, 176.45, 0.30]  # it took us ten years
+    - [180.00, 183.15, 0]     # but eventually we drove Blockbuster into bankruptcy.
+  fix: [["million and", "million"], ["ah", "ugh"]]                       # whisper mishearings: [["heard words", "real words"]]
+
+shots:                            # <time> <name> <source>@<start s | sync[+-s]> <GRADE> [zoom=..] [origin=..] [flash] [crop=..]
+  # hook: Randolph on stage, lip-synced, "Blockbuster had six billion dollars"
+  - 0       hook       randolph@sync   WARM   crop=600:600:1030:30
+  # build-up: slow, cold, literal
+  - b-61    bb_sign    bankrupt@2.6    COLD   crop=290:290:150:0
+  - b-58    aisle      store93@57.0    BLEAK  crop=620:620:140:0
+  - s3      mailbox    sixty@122.0     TEAL   crop=300:300:170:10
+  - b-51    envelope   bankrupt@15.0   COLD   crop=290:290:150:20
+  - s4      pitch      randolph@sync   WARM   crop=720:720:520:20
+  - s5      board      suits@14.0      BLEAK  crop=270:270:200:5
+  - s7      board2     suits@18.0      COLD   crop=270:270:180:5
+  - b-38    pay        store93@194.0   TEAL   crop=620:620:140:0
+  - s8      reed       sixty@65.0      TEAL   crop=300:300:120:0
+  - b-33    reed2      sixty@52.0      COLD   crop=300:300:105:0
+  - s9      said       randolph@sync   WARM   crop=720:720:580:20
+  - s10     cash       cash@4.0        TEAL
+  - s11     what       randolph@sync   WARM   crop=720:720:380:20
+  - s12     laugh      meeting@16.3    COLD   crop=340:340:120:20
+  - s13     tower      tower@30.8      BLEAK  crop=230:230:300:15
+  - b-12    downhill   randolph@sync   WARM   crop=720:720:740:20
+  # riser: the flight home, cuts tighten to the drop
+  - s14     jet        jet@7.8         AMBER  crop=260:260:170:10
+  - b-7     jet2       jet@9.6         TEAL   crop=260:260:200:10
+  - b-5     ugh        randolph@sync   WARM   crop=720:720:220:20
+  - b-3     sort1      sorting@3.0     AMBER
+  - b-2     env1       envend@7.0      TEAL   crop=270:270:185:0
+  - b-1.5   pack1      packing@150.0   AMBER  crop=400:400:120:20
+  - b-1     sort2      sorting@25.0    TEAL
+  - b-0.5   env2       envend@18.0     AMBER  crop=270:270:185:0
+  # drop and payoff: vivid, on the beat
+  - b0      kick       logo@2.9        VIVID  flash
+  - b1      bb_down    closing@20.5    RED    crop=270:270:185:0
+  - b2      sorter     sixty@213.0     AMBER  crop=280:280:180:0
+  - b3      warehouse  packing@64.0    TEAL   crop=400:400:120:20
+  - b4      nflx_hq    hq@17.1         VIVID
+  - b5      years      randolph@sync   WARM   crop=720:720:870:20
+  - s18     bb_store   bankrupt@45.0   COLD   crop=290:290:150:0
+  - b8      bb_inside  closing@30.5    RED    crop=270:270:185:0
+  - b10     bb_card    bbad@15.8       AMBER  crop=440:440:100:20
+  - b12     bb_end     bankrupt@0.3    COLD   crop=290:290:150:0
+  - b14     marc_end   randolph@sync   WARM   crop=720:720:320:20
+
+captions:                         # in order, 1 to 3 words each: "words | stack italic glass"; "~ words" = no caption
+  - blockbuster | glass
+  - had
+  - six billion | stack
+  - dollars
+  - in revenue | stack
+  - so netflix | stack
+  - was nothing | italic
+  - to them
+  - wouldn't it | stack
+  - be great
+  - if you | stack
+  - purchased us
+  - and they finally | stack
+  - said
+  - so how much | stack
+  - do you think | stack
+  - we should
+  - pay for you | stack
+  - so reed | stack
+  - screwed up
+  - all his courage | stack
+  - and he said | stack
+  - $50 million | glass
+  - you know | stack
+  - what they did
+  - they laughed | glass
+  - at us | italic
+  - and the meeting | stack
+  - went downhill | stack
+  - pretty quickly
+  - after that
+  - and all i | stack
+  - could do
+  - was say | stack
+  - to myself
+  - ugh | italic
+  - now we're | stack
+  - gonna have to
+  - kick | italic
+  - their ass | stack
+  - it took us | stack
+  - ten years
+  - but eventually | stack
+  - we drove
+  - blockbuster
+  - into bankruptcy | glass

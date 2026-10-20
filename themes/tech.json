@@ -1,7 +1,7 @@
 {
   "id": "tech",
   "prefix": "Tech",
-  "handle": "@HANDLE",
+  "handle": "@hey_synapse",
   "frame": "card",
   "music": {
     "volume": 0.32,
@@ -90,6 +90,18 @@
     {
       "id": "Tech-P12-Hopper",
       "ep": "p12-hopper"
+    },
+    {
+      "id": "Tech-P13-Spacex",
+      "ep": "p13-spacex"
+    },
+    {
+      "id": "Tech-P14-Netflix",
+      "ep": "p14-netflix"
+    },
+    {
+      "id": "Tech-P15-Airbnb",
+      "ep": "p15-airbnb"
     }
   ]
 }

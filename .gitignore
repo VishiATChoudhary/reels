@@ -9,3 +9,6 @@ public/**/*.m4a
 tools/models/
 .DS_Store
 tech/refs/
+posts/ledger.jsonl
+.env
+.env.*
