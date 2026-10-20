@@ -1,0 +1,501 @@
+{
+ "frame": "card",
+ "end": 37.15,
+ "voFrom": 0,
+ "music": [
+  {
+   "src": "shared/music/mercy.mp3",
+   "start": 13.12,
+   "at": 0,
+   "volume": 0.32
+  }
+ ],
+ "shots": [
+  {
+   "name": "hook",
+   "from": 0.0
+  },
+  {
+   "name": "worldmap",
+   "from": 1.75
+  },
+  {
+   "name": "memo89",
+   "from": 3.5,
+   "zoom": 1.3,
+   "origin": "50% 20%"
+  },
+  {
+   "name": "tim19",
+   "from": 5.6
+  },
+  {
+   "name": "emptyroom",
+   "from": 8.6
+  },
+  {
+   "name": "printer",
+   "from": 10.57
+  },
+  {
+   "name": "tim90",
+   "from": 12.31
+  },
+  {
+   "name": "tim90b",
+   "from": 14.91
+  },
+  {
+   "name": "mouse",
+   "from": 16.21,
+   "zoom": 1.3
+  },
+  {
+   "name": "copy",
+   "from": 18.83
+  },
+  {
+   "name": "corner",
+   "from": 19.73
+  },
+  {
+   "name": "hand",
+   "from": 21.63
+  },
+  {
+   "name": "vaguesay",
+   "from": 22.331
+  },
+  {
+   "name": "note1",
+   "from": 23.11
+  },
+  {
+   "name": "cover2",
+   "from": 23.5
+  },
+  {
+   "name": "note2",
+   "from": 23.695
+  },
+  {
+   "name": "printed",
+   "from": 23.89
+  },
+  {
+   "name": "note3",
+   "from": 24.085
+  },
+  {
+   "name": "drop",
+   "from": 24.28,
+   "flash": true
+  },
+  {
+   "name": "note4",
+   "from": 24.67
+  },
+  {
+   "name": "cover3",
+   "from": 25.45
+  },
+  {
+   "name": "boss",
+   "from": 26.45
+  },
+  {
+   "name": "tim90c",
+   "from": 28.0
+  },
+  {
+   "name": "play",
+   "from": 29.55
+  },
+  {
+   "name": "cubeon",
+   "from": 31.05
+  },
+  {
+   "name": "server",
+   "from": 32.65
+  },
+  {
+   "name": "tedcode",
+   "from": 33.85
+  },
+  {
+   "name": "publicdom",
+   "from": 35.3
+  },
+  {
+   "name": "tedend",
+   "from": 36.35
+  }
+ ],
+ "captions": [
+  {
+   "w": [
+    0,
+    2
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    3,
+    3
+   ]
+  },
+  {
+   "w": [
+    4,
+    5
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    6,
+    7
+   ]
+  },
+  {
+   "w": [
+    8,
+    8
+   ]
+  },
+  {
+   "w": [
+    9,
+    11
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    12,
+    13
+   ]
+  },
+  {
+   "w": [
+    14,
+    14
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    15,
+    16
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    17,
+    18
+   ]
+  },
+  {
+   "w": [
+    19,
+    19
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    20,
+    21
+   ]
+  },
+  {
+   "w": [
+    22,
+    23
+   ]
+  },
+  {
+   "w": [
+    24,
+    25
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    26,
+    28
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    29,
+    30
+   ]
+  },
+  {
+   "w": [
+    32,
+    33
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    34,
+    35
+   ]
+  },
+  {
+   "w": [
+    36,
+    36
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    37,
+    37
+   ]
+  },
+  {
+   "w": [
+    38,
+    39
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    40,
+    41
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    42,
+    44
+   ]
+  },
+  {
+   "w": [
+    45,
+    46
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    47,
+    48
+   ]
+  },
+  {
+   "w": [
+    49,
+    50
+   ]
+  },
+  {
+   "w": [
+    51,
+    52
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    53,
+    54
+   ]
+  },
+  {
+   "w": [
+    56,
+    57
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    58,
+    59
+   ]
+  },
+  {
+   "w": [
+    60,
+    61
+   ]
+  },
+  {
+   "w": [
+    62,
+    63
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    64,
+    64
+   ]
+  },
+  {
+   "w": [
+    65,
+    65
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    66,
+    66
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    67,
+    67
+   ]
+  },
+  {
+   "w": [
+    68,
+    68
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    69,
+    71
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    72,
+    74
+   ]
+  },
+  {
+   "w": [
+    75,
+    76
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    77,
+    77
+   ]
+  },
+  {
+   "w": [
+    78,
+    79
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    80,
+    81
+   ]
+  },
+  {
+   "w": [
+    82,
+    84
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    85,
+    87
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    88,
+    89
+   ]
+  },
+  {
+   "w": [
+    90,
+    91
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    92,
+    94
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    95,
+    96
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    97,
+    98
+   ]
+  },
+  {
+   "w": [
+    99,
+    100
+   ]
+  },
+  {
+   "w": [
+    101,
+    102
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    103,
+    104
+   ]
+  },
+  {
+   "w": [
+    105,
+    107
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    108,
+    109
+   ],
+   "glass": true
+  }
+ ],
+ "headline": {
+  "text": "tim berners-lee's boss wrote three words on the *web*",
+  "to": 3.0
+ }
+}

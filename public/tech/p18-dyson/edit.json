@@ -1,0 +1,380 @@
+{
+ "frame": "card",
+ "end": 37.16,
+ "voFrom": 0,
+ "music": [
+  {
+   "src": "shared/music/medusa.mp3",
+   "start": 17.06,
+   "at": 0,
+   "volume": 0.32
+  }
+ ],
+ "shots": [
+  {
+   "name": "hook",
+   "from": 0.0
+  },
+  {
+   "name": "upright",
+   "from": 2.55
+  },
+  {
+   "name": "clogbag",
+   "from": 5.54
+  },
+  {
+   "name": "bagdust",
+   "from": 7.7
+  },
+  {
+   "name": "sketch",
+   "from": 9.59
+  },
+  {
+   "name": "roof",
+   "from": 11.17
+  },
+  {
+   "name": "cement",
+   "from": 13.45
+  },
+  {
+   "name": "young",
+   "from": 15.12
+  },
+  {
+   "name": "numbers",
+   "from": 17.0
+  },
+  {
+   "name": "cardboard",
+   "from": 19.22
+  },
+  {
+   "name": "final",
+   "from": 20.14
+  },
+  {
+   "name": "pink",
+   "from": 21.06
+  },
+  {
+   "name": "proto",
+   "from": 21.52
+  },
+  {
+   "name": "cones",
+   "from": 21.98
+  },
+  {
+   "name": "yellow",
+   "from": 22.44
+  },
+  {
+   "name": "clear2",
+   "from": 22.67
+  },
+  {
+   "name": "pink2",
+   "from": 22.9
+  },
+  {
+   "name": "row",
+   "from": 23.13
+  },
+  {
+   "name": "worked",
+   "from": 23.36,
+   "flash": true
+  },
+  {
+   "name": "look",
+   "from": 24.28
+  },
+  {
+   "name": "none",
+   "from": 25.66
+  },
+  {
+   "name": "line",
+   "from": 29.42
+  },
+  {
+   "name": "bins",
+   "from": 30.72
+  },
+  {
+   "name": "dc01",
+   "from": 32.1
+  },
+  {
+   "name": "take",
+   "from": 33.48
+  },
+  {
+   "name": "boxed",
+   "from": 35.32
+  }
+ ],
+ "captions": [
+  {
+   "w": [
+    0,
+    2
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    3,
+    3
+   ]
+  },
+  {
+   "w": [
+    4,
+    5
+   ]
+  },
+  {
+   "w": [
+    6,
+    8
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    9,
+    10
+   ]
+  },
+  {
+   "w": [
+    11,
+    13
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    14,
+    14
+   ]
+  },
+  {
+   "w": [
+    15,
+    17
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    18,
+    20
+   ]
+  },
+  {
+   "w": [
+    21,
+    22
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    23,
+    25
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    26,
+    27
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    28,
+    29
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    30,
+    31
+   ]
+  },
+  {
+   "w": [
+    32,
+    33
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    34,
+    36
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    37,
+    38
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    39,
+    40
+   ]
+  },
+  {
+   "w": [
+    41,
+    43
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    44,
+    46
+   ]
+  },
+  {
+   "w": [
+    47,
+    49
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    50,
+    52
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    53,
+    54
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    55,
+    55
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    56,
+    58
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    59,
+    61
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    62,
+    63
+   ]
+  },
+  {
+   "w": [
+    64,
+    65
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    66,
+    67
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    68,
+    70
+   ]
+  },
+  {
+   "w": [
+    71,
+    73
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    74,
+    75
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    76,
+    77
+   ]
+  },
+  {
+   "w": [
+    78,
+    80
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    81,
+    82
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    83,
+    85
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    86,
+    87
+   ]
+  },
+  {
+   "w": [
+    88,
+    88
+   ],
+   "glass": true
+  }
+ ],
+ "headline": {
+  "text": "james dyson built 5,127 vacuums to beat one *bag*",
+  "to": 3.119
+ }
+}

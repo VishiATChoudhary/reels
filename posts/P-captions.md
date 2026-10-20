@@ -209,3 +209,48 @@ Brian Chesky, The David Rubenstein Show, Bloomberg, 2022.
 Music: Strike Me Down by Encore (@encorebeats)
 
 #tech #airbnb #founders #startups #ycombinator #synapse
+
+## Tech-P16-Bezos
+
+Jeff Bezos quit his job by pretending to be 80.
+
+In spring 1994 Bezos was a 30 year old senior vice president at D. E. Shaw, a Wall Street hedge fund. Then he read that web usage was growing 2,300 percent a year. "Things just don't grow that fast."
+
+He told his boss, David Shaw, he was going to start a company selling books online. They took a two hour walk in Central Park. Shaw's verdict: a really good idea, but a better idea for somebody who didn't already have a good job. He asked Bezos to think about it for 48 hours.
+
+So Bezos imagined himself at 80, looking back. He knew he wouldn't regret trying and failing. The one thing he might regret was never having tried. He left mid-year, walked away from his bonus, and started Amazon in a garage in Bellevue, Washington.
+
+Jeff Bezos, Academy of Achievement interview, 4 May 2001.
+Music: Utopia by Encore (@encorebeats)
+
+#tech #amazon #jeffbezos #founders #startups #synapse
+
+## Tech-P17-Berners-Lee
+
+Tim Berners-Lee's boss wrote three words on the proposal for the web.
+
+In March 1989 Berners-Lee, a software engineer at CERN, wrote a memo called "Information Management: A Proposal": a global hypertext system to link the lab's scattered documents. CERN had committees for physics experiments. This wasn't one, so nobody quite knew where it should go, and not much happened to it.
+
+His boss, Mike Sendall, wrote on the cover in pencil: "Vague but exciting..." In 1990 Sendall let him do it on the side as a play project, on a new NeXT computer. By the end of 1990 the first web server and browser were running on that NeXT.
+
+On 30 April 1993 CERN put the web software in the public domain. No patent, no royalties, free for anyone to use.
+
+Tim Berners-Lee, TED 2009 (The next web) and CERN's 30th anniversary of the web, 12 March 2019.
+Music: Mercy by Encore (@encorebeats)
+
+#tech #worldwideweb #timbernerslee #cern #internethistory #synapse
+
+## Tech-P18-Dyson
+
+James Dyson built 5,127 vacuums to beat one bag.
+
+In the late 1970s his vacuum kept losing suction. He emptied the bag and it still wouldn't pick up. The bag wasn't full, its pores were clogged with the first dust that went in.
+
+He had seen cyclones on factory and sawmill roofs, spinning dust out of the air without a filter. So he built a cardboard one onto his vacuum, then spent about five years in his coach house making one change at a time. 5,126 failures. Prototype 5,127 worked.
+
+The big manufacturers looked at it and passed. Replacement bags were too good a business. So he borrowed against his house, set himself up as a manufacturer and launched the DC01 in 1993.
+
+James Dyson, Masters of Scale with Reid Hoffman, 2024.
+Music: Medusa by Encore (@encorebeats)
+
+#tech #dyson #jamesdyson #inventors #founders #synapse

@@ -1,0 +1,60 @@
+{
+ "drop": 24.28,
+ "musicStart": 13.12,
+ "segments": [
+  {
+   "reel": 0.0,
+   "file": "ted",
+   "src": 41.1,
+   "dur": 3.35
+  },
+  {
+   "reel": 3.5,
+   "file": "cern",
+   "src": 111.1,
+   "dur": 4.05
+  },
+  {
+   "reel": 7.85,
+   "file": "cern",
+   "src": 117.55,
+   "dur": 2.47
+  },
+  {
+   "reel": 10.57,
+   "file": "cern",
+   "src": 132.36,
+   "dur": 1.44
+  },
+  {
+   "reel": 12.31,
+   "file": "cern",
+   "src": 193.88,
+   "dur": 6.22
+  },
+  {
+   "reel": 18.83,
+   "file": "cern",
+   "src": 214.28,
+   "dur": 5.1
+  },
+  {
+   "reel": 24.23,
+   "file": "cern",
+   "src": 219.38,
+   "dur": 1.92
+  },
+  {
+   "reel": 26.45,
+   "file": "ted",
+   "src": 52.3,
+   "dur": 7.1
+  },
+  {
+   "reel": 33.85,
+   "file": "ted",
+   "src": 75.45,
+   "dur": 2.4
+  }
+ ]
+}

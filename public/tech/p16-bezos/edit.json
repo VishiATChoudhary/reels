@@ -1,0 +1,415 @@
+{
+ "frame": "card",
+ "end": 38.83,
+ "voFrom": 0,
+ "music": [
+  {
+   "src": "shared/music/utopia.mp3",
+   "start": 29.17,
+   "at": 0,
+   "volume": 0.32
+  }
+ ],
+ "shots": [
+  {
+   "name": "hook",
+   "from": 0.0
+  },
+  {
+   "name": "today94",
+   "from": 2.03
+  },
+  {
+   "name": "mosaic",
+   "from": 3.63
+  },
+  {
+   "name": "nyse",
+   "from": 5.94
+  },
+  {
+   "name": "floor",
+   "from": 7.63
+  },
+  {
+   "name": "crazy",
+   "from": 8.79
+  },
+  {
+   "name": "site",
+   "from": 10.03
+  },
+  {
+   "name": "park",
+   "from": 11.29
+  },
+  {
+   "name": "traders",
+   "from": 12.43
+  },
+  {
+   "name": "goodjob",
+   "from": 14.03
+  },
+  {
+   "name": "framework",
+   "from": 16.43
+  },
+  {
+   "name": "bezos96",
+   "from": 18.03
+  },
+  {
+   "name": "office",
+   "from": 18.83
+  },
+  {
+   "name": "doordesk",
+   "from": 19.63
+  },
+  {
+   "name": "nerd",
+   "from": 20.43
+  },
+  {
+   "name": "shelves",
+   "from": 20.83
+  },
+  {
+   "name": "cart",
+   "from": 21.23
+  },
+  {
+   "name": "laugh0",
+   "from": 21.63
+  },
+  {
+   "name": "drive",
+   "from": 22.03,
+   "flash": true
+  },
+  {
+   "name": "laugh",
+   "from": 22.83
+  },
+  {
+   "name": "page99",
+   "from": 23.63
+  },
+  {
+   "name": "eighty",
+   "from": 24.69
+  },
+  {
+   "name": "garage",
+   "from": 27.63
+  },
+  {
+   "name": "warehouse",
+   "from": 28.43
+  },
+  {
+   "name": "walk",
+   "from": 30.03
+  },
+  {
+   "name": "mightreg",
+   "from": 32.03
+  },
+  {
+   "name": "young",
+   "from": 34.03
+  },
+  {
+   "name": "end",
+   "from": 36.43
+  }
+ ],
+ "captions": [
+  {
+   "w": [
+    0,
+    1
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    2,
+    4
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    5,
+    6
+   ]
+  },
+  {
+   "w": [
+    7,
+    8
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    9,
+    10
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    11,
+    12
+   ]
+  },
+  {
+   "w": [
+    13,
+    14
+   ]
+  },
+  {
+   "w": [
+    15,
+    17
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    18,
+    19
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    20,
+    21
+   ]
+  },
+  {
+   "w": [
+    22,
+    24
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    25,
+    26
+   ]
+  },
+  {
+   "w": [
+    27,
+    29
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    30,
+    32
+   ]
+  },
+  {
+   "w": [
+    33,
+    34
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    35,
+    36
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    37,
+    38
+   ]
+  },
+  {
+   "w": [
+    39,
+    41
+   ],
+   "glass": true
+  },
+  {
+   "w": [
+    42,
+    43
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    44,
+    44
+   ]
+  },
+  {
+   "w": [
+    45,
+    46
+   ]
+  },
+  {
+   "w": [
+    47,
+    48
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    49,
+    50
+   ]
+  },
+  {
+   "w": [
+    51,
+    51
+   ]
+  },
+  {
+   "w": [
+    52,
+    52
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    53,
+    53
+   ]
+  },
+  {
+   "w": [
+    54,
+    54
+   ]
+  },
+  {
+   "w": [
+    55,
+    57
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    58,
+    59
+   ]
+  },
+  {
+   "w": [
+    60,
+    61
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    62,
+    64
+   ],
+   "italic": true
+  },
+  {
+   "w": [
+    65,
+    66
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    67,
+    68
+   ]
+  },
+  {
+   "w": [
+    69,
+    70
+   ]
+  },
+  {
+   "w": [
+    71,
+    72
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    73,
+    74
+   ]
+  },
+  {
+   "w": [
+    75,
+    77
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    78,
+    80
+   ]
+  },
+  {
+   "w": [
+    81,
+    82
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    83,
+    83
+   ]
+  },
+  {
+   "w": [
+    84,
+    85
+   ],
+   "layout": "stack"
+  },
+  {
+   "w": [
+    86,
+    87
+   ]
+  },
+  {
+   "w": [
+    88,
+    88
+   ],
+   "glass": true
+  }
+ ],
+ "headline": {
+  "text": "jeff bezos quit his job by pretending to be *80*",
+  "to": 3.0
+ }
+}

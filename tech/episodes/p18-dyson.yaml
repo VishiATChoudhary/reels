@@ -1,0 +1,108 @@
+# tech/p18-dyson: James Dyson on the bagless vacuum (short cut, ~40 s), told by himself on Masters of Scale (Reid Hoffman, 6 Jun 2024).
+# One recording, spliced; "worked" (prototype 5,127) lands on the drop. Build: python3 tools/reel.py build tech/p18-dyson   Render: npm run render -- Tech-P18-Dyson
+song: medusa
+headline: james dyson built 5,127 vacuums to beat one *bag*
+headline_to: b-44
+end: b30
+
+sources:                          # each becomes raw/<name>.mp4
+  speaker:  {url: "https://www.youtube.com/watch?v=EkezmPpKdzo", section: "3:00-8:15"}   # Masters of Scale with Reid Hoffman, Dyson showroom New York, 6 Jun 2024
+  coach:    {url: "https://www.youtube.com/watch?v=RuJgLdaFSw8"}   # Dyson, Invention: A Life, Chapter 5: Coach House
+  dc01:     {url: "https://www.youtube.com/watch?v=OwtjQM49Ir0"}   # Dyson, Invention: A Life, Chapter 6: DC01
+  core:     {url: "https://www.youtube.com/watch?v=t-R6rWtpgPU"}   # Dyson, Invention: A Life, Chapter 7: Core technology
+  thames:   {url: "https://www.youtube.com/watch?v=ifXwh5Pdb0U"}   # Thames TV, Afternoon Plus, 1983
+  ad93:     {url: "https://www.youtube.com/watch?v=_EYCCucYCX0"}   # Dyson DC01 TV commercial
+  hoover:   {url: "https://www.youtube.com/watch?v=AmjdY2Qy9Gg"}   # Hoover Senior TV commercial, 1970s
+  junior:   {url: "https://www.youtube.com/watch?v=PnM7SmLWTCs"}   # 1960s Hoover Junior demo
+  bag:      {url: "https://www.youtube.com/watch?v=lhRDVF6of5U"}   # emptying a vintage vacuum bag
+  cyclone:  {url: "https://www.youtube.com/watch?v=ae7MU6Rojhw"}   # industrial cyclone dust collector
+  sawmill:  {url: "https://www.youtube.com/watch?v=5_-Un4CGThY"}   # sawmill dust collection
+
+voice:
+  src: speaker
+  whisper: [[15.76, 20.95], [38.1, 41.8], [112.8, 114.78], [117.6, 121.2], [144.6, 149.0], [149.55, 153.95], [232.4, 237.1], [303.6, 309.9]]
+  climax: {seg: 6, word: worked}
+  segments:
+    - [15.76, 20.95, 0.35]     # And I was vacuuming one day and it wasn't picking up
+    - [38.10, 41.80, 0.35]     # And I suddenly twigged that the pores of the bag were clogged
+    - [113.30, 114.78, 0.10]   # in my case, a cyclone
+    - [117.60, 121.20, 0.35]   # You typically see them outside factories and cement works
+    - [145.05, 149.00, 0.35]   # I had 5,126 failures over a period of four years.
+    - [149.55, 153.20, 0.25]   # And then finally, the final one, the 5,127th
+    - [153.20, 153.95, 0.30]   # CLIMAX: worked.
+    - [232.40, 237.10, 0.35]   # They all had a good look at it, but none were interested in licensing it.
+    - [303.60, 309.90, 0]      # So I decided to set myself up as a manufacturer from scratch to take on these big multinationals.
+  fix: [["tweaked", "twigged"], ["site claim", "cyclone"], ["side claim", "cyclone"], ["paws", "pores"], ["painful", "painstaking"], ["5127th", "5,127th"]]
+
+shots:
+  # hook: Dyson on the call (split screen until src 24.0), lip-synced
+  - 0       hook       speaker@sync     WARM   crop=700:700:1040:150
+  # build-up: the bag, the dust, the cyclone, cold
+  - 2.55    upright    hoover@23.0      COLD
+  - s1      clogbag    ad93@11.0        COLD
+  - 7.7     bagdust    coach@113.0      BLEAK
+  - s2      sketch     coach@94.0       COLD
+  - s3      roof       coach@73.0       BLEAK
+  - 13.45   cement     cyclone@14.0     TEAL   crop=900:900:510:180
+  # turn: 5,126 failures, the young Dyson and his prototypes
+  - s4      young      coach@123.0      AMBER
+  - 17.0    numbers    coach@229.1      TEAL
+  # riser: cuts tighten into the drop
+  - b-9     cardboard  coach@132.0      AMBER
+  - b-7     final      speaker@sync     WARM   crop=700:700:1040:150
+  - b-5     pink       thames@57.0      TEAL
+  - b-4     proto      coach@124.8      AMBER
+  - b-3     cones      coach@212.0      TEAL
+  - b-2     yellow     dc01@102.0       AMBER  crop=900:900:520:90
+  - b-1.5   clear2     coach@179.8      TEAL
+  - b-1     pink2      thames@76.0      AMBER
+  - b-0.5   row        dc01@140.0       TEAL
+  # drop and payoff
+  - b0      worked     ad93@25.0        VIVID  flash
+  - b2      look       thames@58.0      TEAL
+  - b5      none       speaker@sync     WARM   crop=700:700:1040:150
+  - s8      line       dc01@141.6       VIVID
+  - b16     bins       dc01@139.0       AMBER
+  - b19     dc01       dc01@173.1       RED
+  - b22     take       speaker@sync     WARM   crop=860:860:630:110
+  - b26     boxed      dc01@170.0       VIVID  crop=920:920:560:76
+
+captions:
+  - and i was | glass
+  - vacuuming
+  - one day
+  - and it wasn't | stack
+  - picking up
+  - and i suddenly | stack
+  - twigged
+  - that the pores | stack
+  - of the bag
+  - were clogged | glass
+  - in my case | stack
+  - a cyclone | glass
+  - you typically | stack
+  - see them
+  - outside factories | stack
+  - and cement works | stack
+  - i had | stack
+  - 5,126 failures
+  - over a period | stack
+  - of four years
+  - and then finally | stack
+  - the final one | stack
+  - the 5,127th | stack
+  - worked | italic
+  - they all had | stack
+  - a good look | stack
+  - at it
+  - but none | stack
+  - were interested | stack
+  - in licensing it
+  - so i decided | stack
+  - to set | stack
+  - myself up
+  - as a manufacturer | stack
+  - from scratch | italic
+  - to take on | stack
+  - these big
+  - multinationals | glass

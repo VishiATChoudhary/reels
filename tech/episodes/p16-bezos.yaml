@@ -1,0 +1,117 @@
+# tech/p16-bezos: Jeff Bezos on the regret minimization framework (Academy of Achievement interview, recorded 4 May 2001).
+# One take, in story order, lines cut to fit (no reordering). "regret" lands on the drop.
+# Hook starts at "web usage" (22.86 s in the source), lip-synced.
+# Build: python3 tools/reel.py build tech/p16-bezos   Render: npm run render -- Tech-P16-Bezos
+song: utopia
+headline: jeff bezos quit his job by pretending to be *80*
+headline_to: 3
+end: b21
+
+sources:
+  speaker:  {url: "https://www.youtube.com/watch?v=s7ZvBy1SROE", section: "0:00-5:20"}   # Academy of Achievement, Bezos interview, 2001
+  today94:  {url: "https://www.youtube.com/watch?v=UlJku_CSyNg"}   # NBC Today, "What is the Internet, anyway?", 1994
+  ns94:     {url: "https://www.youtube.com/watch?v=ZmVhH8WCdeU"}   # Netscape Navigator 1.0, 1994
+  floor96:  {url: "https://www.youtube.com/watch?v=tii7W5k3aUA"}   # David Hoffman, Wall Street trading floor 1996
+  nerd60:   {url: "https://www.youtube.com/watch?v=8OsY1V3iN6E"}   # 60 Minutes, "Nerd of the Amazon", 1999
+  cc96:     {url: "https://www.youtube.com/watch?v=B8ZJYIasOh0"}   # Computer Chronicles, On-Line Shopping, 1996 (Bezos at Amazon)
+  tour:     {url: "https://www.youtube.com/watch?v=44XbHVRxnMA"}   # 60 Minutes Australia, Bezos tour of early Amazon
+  cnbc99:   {url: "https://www.youtube.com/watch?v=GltlJO56S1g"}   # CNBC, Bezos 1999
+  park97:   {url: "https://www.youtube.com/watch?v=9Tao0gXEhSE"}   # New York streets and Central Park, 1997
+  site95:   {url: "https://www.youtube.com/watch?v=MthgoLuBUGc"}   # amazon.com in 1995
+
+voice:
+  src: speaker
+  whisper: [[22.6, 28.45], [151.0, 154.15], [156.3, 158.7], [177.9, 178.4], [182.0, 186.7], [227.2, 230.1], [233.4, 236.0], [237.6, 240.32], [240.33, 243.6], [263.6, 271.9]]
+  climax: {seg: 8, word: regret}
+  segments:
+    - [22.86, 28.40, 0.40]    # web usage in the spring of 1994 was growing at 2300 percent a year.
+    - [151.40, 154.10, 0.15]  # I went to my boss
+    - [156.50, 158.60, 0.40]  # I'm gonna go do this crazy thing
+    - [177.98, 178.32, 0.10]  # he said
+    - [182.30, 186.55, 0.45]  # it would be a better idea for somebody who didn't already have a good job.
+    - [227.50, 230.05, 0.15]  # and the framework I found
+    - [233.60, 236.00, 0.20]  # was what I called
+    - [237.64, 237.92, 0]     # a
+    - [237.92, 240.30, 0.30]  # CLIMAX: regret minimization framework.
+    - [240.35, 243.40, 0.40]  # so I wanted to project myself forward to age 80
+    - [263.90, 271.80, 0]     # I knew that if I failed I wouldn't regret that, but I knew the one thing I might regret is not ever having tried.
+  fix: [["boss. So,", "boss."], ["\"You know, He's not going to be a man.\" like", ""], ["call...", "called"], ["big deal.", ""], ["found...", "found"]]
+
+shots:
+  # hook: Bezos at the Academy of Achievement, 4 May 2001, lip-synced
+  - 0       hook      speaker@sync     WARM   crop=700:700:610:70
+  # build-up: 1994 web, Wall Street, the boss; cold
+  - b-25    today94   today94@5        BLEAK  crop=330:330:135:2
+  - b-23    mosaic    ns94@130         COLD   crop=560:560:360:60
+  - s1      nyse      floor96@2        COLD   crop=440:440:20:20
+  - b-18    floor     floor96@20       BLEAK  crop=380:380:120:50
+  - s2      crazy     speaker@sync     WARM   crop=760:760:580:40
+  - b-15    site      cc96@360         TEAL   crop=470:470:80:5
+  - s3      park      park97@385       COLD   crop=420:420:220:60
+  - b-12    traders   floor96@100      BLEAK  crop=440:440:150:20
+  - b-10    goodjob   floor96@170      TEAL   crop=440:440:150:20
+  # turn: the framework, cuts tighten
+  - s5      framework speaker@sync     WARM   crop=700:700:610:70
+  - b-5     bezos96   cc96@375         AMBER  crop=470:470:80:5
+  - b-4     office    tour@45          TEAL   crop=700:700:285:10
+  - b-3     doordesk  nerd60@120       AMBER  crop=900:900:500:20
+  - b-2     nerd      cnbc99@60        TEAL   crop=860:860:500:180
+  - b-1.5   shelves   nerd60@470       AMBER  crop=900:900:500:20
+  - b-1     cart      tour@446         TEAL   crop=700:700:285:10
+  - b-0.5   laugh0    nerd60@154       AMBER  crop=900:900:520:20
+  # drop and payoff
+  - b0      drive     nerd60@335       VIVID  flash  crop=900:900:600:20
+  - b1      laugh     tour@60          RED    crop=700:700:285:10
+  - b2      page99    nerd60@385       AMBER  crop=900:900:480:20
+  - s9      eighty    speaker@sync     WARM   crop=760:760:580:40
+  - b7      garage    nerd60@368       AMBER  crop=900:900:520:20
+  - b8      warehouse tour@448         VIVID  crop=700:700:285:10
+  - b10     walk      nerd60@471       TEAL   crop=900:900:520:20
+  - b12.5   mightreg  speaker@sync     WARM   crop=700:700:610:70
+  - b15     young     cc96@375         VIVID  crop=470:470:80:5
+  - b18     end       tour@294         WARM   crop=700:700:285:10
+
+captions:
+  - web usage | glass
+  - in the spring | stack
+  - of 1994
+  - was growing | stack
+  - at 2,300% | glass
+  - a year
+  - i went
+  - to my boss | stack
+  - i'm gonna | stack
+  - go do
+  - this crazy thing | italic
+  - he said
+  - it would be | stack
+  - a better idea
+  - for somebody | stack
+  - who didn't | stack
+  - already have
+  - a good job | glass
+  - and the | stack
+  - framework
+  - i found
+  - was what | stack
+  - i called
+  - a
+  - regret | italic
+  - minimization
+  - framework
+  - so i wanted | stack
+  - to project
+  - myself forward | stack
+  - to age 80 | italic
+  - i knew | stack
+  - that if
+  - i failed
+  - i wouldn't | stack
+  - regret that
+  - but i knew | stack
+  - the one thing
+  - i might | stack
+  - regret
+  - is not | stack
+  - ever having
+  - tried | glass

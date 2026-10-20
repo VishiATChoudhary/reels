@@ -102,6 +102,18 @@
     {
       "id": "Tech-P15-Airbnb",
       "ep": "p15-airbnb"
+    },
+    {
+      "id": "Tech-P16-Bezos",
+      "ep": "p16-bezos"
+    },
+    {
+      "id": "Tech-P17-Berners-Lee",
+      "ep": "p17-berners-lee"
+    },
+    {
+      "id": "Tech-P18-Dyson",
+      "ep": "p18-dyson"
     }
   ]
 }
