@@ -68,6 +68,16 @@ curl -L -o tools/models/ggml-base.en.bin --create-dirs \
   https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.en.bin
 ```
 
+Or let your agent do it. Install the [`reels-setup`](skills/reels-setup/SKILL.md) skill, then ask it to set up the studio:
+
+```bash
+npx skills add VishiATChoudhary/reels
+# or
+curl -fsSL https://raw.githubusercontent.com/VishiATChoudhary/reels/main/install.sh | bash
+```
+
+`bash tools/setup.sh` does the same install + verify by hand.
+
 Then make your own:
 
 1. **Pick a theme**, or copy `themes/tech.json` to a new one and add it in `src/Root.tsx`. Set your `handle`.
