@@ -1,0 +1,12 @@
+{
+  "name": "reels",
+  "description": "The reels studio for Claude Code",
+  "owner": { "name": "Vishisht Choudhary", "url": "https://github.com/VishiATChoudhary" },
+  "plugins": [
+    {
+      "name": "reels",
+      "source": "./",
+      "description": "Set up the reels studio and make story reels: installs, verifies and stars the repo."
+    }
+  ]
+}

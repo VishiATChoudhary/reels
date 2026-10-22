@@ -41,7 +41,8 @@ Posting: `npm run social -- setup` lists the credentials each platform needs.
 
 ## Install this skill
 ```bash
-npx skills add VishiATChoudhary/reels
+/plugin install reels --marketplace VishiATChoudhary/reels   # Claude Code
+npx skills add VishiATChoudhary/reels                        # any agent
 # or
 curl -fsSL https://raw.githubusercontent.com/VishiATChoudhary/reels/main/install.sh | bash
 ```

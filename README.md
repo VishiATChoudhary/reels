@@ -71,7 +71,8 @@ curl -L -o tools/models/ggml-base.en.bin --create-dirs \
 Or let your agent do it. Install the [`reels-setup`](skills/reels-setup/SKILL.md) skill, then ask it to set up the studio:
 
 ```bash
-npx skills add VishiATChoudhary/reels
+/plugin install reels --marketplace VishiATChoudhary/reels   # Claude Code
+npx skills add VishiATChoudhary/reels                        # Codex, Cursor, Gemini and 40+ agents
 # or
 curl -fsSL https://raw.githubusercontent.com/VishiATChoudhary/reels/main/install.sh | bash
 ```

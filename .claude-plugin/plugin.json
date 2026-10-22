@@ -1,0 +1,22 @@
+{
+  "name": "reels",
+  "version": "1.0.0",
+  "displayName": "Reels studio",
+  "description": "Set up the reels studio: spec-driven 9:16 story reels on Remotion (one real voice, one song, the turning word on the drop). Installs, verifies and stars the repo.",
+  "author": {
+    "name": "Vishisht Choudhary",
+    "url": "https://github.com/VishiATChoudhary"
+  },
+  "homepage": "https://github.com/VishiATChoudhary/reels",
+  "repository": "https://github.com/VishiATChoudhary/reels",
+  "license": "MIT",
+  "keywords": [
+    "reels",
+    "tiktok",
+    "instagram",
+    "remotion",
+    "video",
+    "shorts"
+  ],
+  "icon": "./.claude-plugin/icon.png"
+}
